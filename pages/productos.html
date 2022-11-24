@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Productos</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo-con-imagen">
+            <img src="../img/luna-llena.png" alt="logo">
+            <h1>Luna Llena</h1>
+        </div>
+        <div class="log-in-y-navegacion">
+            <div class="log-in">
+                <a href=""><i class="bi bi-person-plus"></i> Registrarse</a>
+                <a href=""><i class="bi bi-box-arrow-in-right"></i> Entrar</a>
+                <a href=""><i class="bi bi-cart4"></i> Carrito</a>
+            </div>
+            <div class="barra-de-navegacion">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="./sobre-nosotros.html">Sobre nosotros</a></li>
+                        <li><a href="./productos.html">Productos</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                        <li><a href="./recetas.html">Recetas</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="promociones">
+            <div>
+                <h2>¡Aprovecha nuestras promociones y descuentos!</h2>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../img/promo-1.jpg" class="d-block w-100" alt="Promo 1">
+                        <div class="carousel-caption d-none d-md-block promo1">
+                            <h5>Promo 1</h5>
+                            <p>30% de descuento con la compra de pan integral y mermelada a eleccion</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/promo-2.jpg" class="d-block w-100" alt="Promo 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Promo 2</h5>
+                            <p>20% de descuento en la segunda unidad de leche</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/promo-3.jpg" class="d-block w-100" alt="Promo 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Promo 3</h5>
+                            <p>¡Arma tu mix! 25% de descuento con la compra mayor a 700gr</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="productos">
+            <div class="grid-de-producto">
+                <div class="titulo-de-producto">
+                    <h2>Mermeladas</h2>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/mermelada-de-frutilla.jpg" alt="Mermelada de frutilla">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Mermelada de Frutilla</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/mermelada-de-frambuesa.jpg" alt="Mermelada de frambuesa">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Mermelada de Frambuesa</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/mermelada-de-naranja.jpg" alt="Mermelada de naranja">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Mermelada de Naranja</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-de-producto">
+                <div class="titulo-de-producto">
+                    <h2>Frutos Secos</h2>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/almendras.jpg" alt="Almendras">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Almendras</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/nueces.jpg" alt="Nueces">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Nueces</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/pistachio.jpg" alt="Pistachio">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Pistachio</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-de-producto">
+                <div class="titulo-de-producto">
+                    <h2>Porotos</h2>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/porotos-pallares.jpg" alt="Porotos pallares">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Porotos Pallares</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/porotos-negros.jpg" alt="Porotos negros">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Porotos Negros</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-de-producto">
+                <div class="titulo-de-producto">
+                    <h2>Especias</h2>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/gengibre.jpg" alt="Gengibre">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Gengibre</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/comino.jpg" alt="Comino">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Comino</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/pimienta.jpg" alt="Pimienta">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Pimienta</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/nuez-moscada.jpg" alt="Nuez Moscada">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Nuez Moscada</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-de-producto">
+                <div class="titulo-de-producto">
+                    <h2>Bebidas</h2>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/jugo-de-frutilla.jpg" alt="Jugo de Frutilla">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Jugo de Frutilla</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/jugo-de-manzana.jpg" alt="Jugo de Manzana">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Jugo de Manzana</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/jugo-de-naranja.jpg" alt="Jugo de Naranja">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Jugo de Naranja</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/leche.jpg" alt="Leche">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Leche de Almendras</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-de-producto">
+                <div class="titulo-de-producto">
+                    <h2>Cereales</h2>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/maiz.jpg" alt="Maiz">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Maiz</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/arroz.jpg" alt="Arroz">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Arroz</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/avena.jpg" alt="Avena">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Avena</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-de-producto">
+                <div class="titulo-de-producto">
+                    <h2>Frutas</h2>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/anana.jpg" alt="Anana">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Anana</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/arandanos.jpg" alt="Arandanos">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Arandanos</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/bananas.jpg" alt="Bananas">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Bananas</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/frambuesas.jpg" alt="Frambuesas">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Frambuesas</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/frutillas.jpg" alt="Frutillas">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Frutillas</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/manzanas.jpg" alt="Manzanas">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Manzanas</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/naranjas.jpg" alt="Naranjas">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Naranjas</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-de-producto">
+                <div class="titulo-de-producto">
+                    <h2>Verduras</h2>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/cebollas.jpg" alt="Cebollas">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Cebollas</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/lechuga.jpg" alt="Lechuga">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Lechuga</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/morrones.jpg" alt="Morrones">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Morrones</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/papa.jpg" alt="Papas">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Papa</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/tomates.jpg" alt="Tomates">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Tomates</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-de-producto">
+                    <div class="imagen-de-producto">
+                        <img src="../img/zanahorias.jpg" alt="Zanahorias">
+                    </div>
+                    <div class="texto-de-producto">
+                        <h3>Zanahorias</h3>
+                        <div>
+                            <h4>$$$</h4>
+                            <a href=""><i class="bi bi-cart-plus"></i> Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <h2>Buscanos en nuestras redes</h2>
+        <div>
+            <a href="https://www.instagram.com/" target="_blank"><img src="../img/instagram.png" alt="instagram">
+                Instagram </a>
+            <a href="https://es-la.facebook.com/" target="_blank"><img src="../img/facebook.png"
+                    alt="facebook">Facebook</a>
+            <a href="https://twitter.com/?lang=es" target="_blank"><img src="../img/twitter.png"
+                    alt="twitter">Twitter</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
