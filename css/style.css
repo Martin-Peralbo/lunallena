@@ -90,6 +90,7 @@ justify-content: space-between;
     font-weight: 700;
     color: #d6d7da;
     margin-left: 20px;
+    margin-bottom: 0;
 }
 
 /*---HEADER---Barra de Navegacion---*/
@@ -98,6 +99,7 @@ justify-content: space-between;
     display: flex;
     margin: 0;
     padding: 0;
+    justify-content: flex-end;
 }
 
 .barra-de-navegacion nav ul li {
@@ -780,17 +782,12 @@ footer div {
 
 @media screen and (max-width:870px){
 /*------HEADER------*/
+
     header {
-        display: flex;
-        flex-direction: column;
-        padding: 15px;
-    }
-    .log-in {
-        justify-content: flex-start;    
+        padding: 10px;
     }
     .logo-con-imagen {
         justify-content: center;
-        margin-bottom: 10px;
     }
     .logo-con-imagen img {
         width: 70px;
@@ -799,17 +796,12 @@ footer div {
     .logo-con-imagen h1 {
         font-size: 30px;
     }
-    .log-in-y-navegacion {
-        height: 70px;
-    }
     .barra-de-navegacion nav ul li a {
-        margin-right: 15px;
-        margin-left: 0;
+        margin-left: 10px; 
         font-size: 15px;
     }
-    .log-in a {
-        margin-right: 15px;
-        margin-left: 0;
+    .log-in a {   
+        margin-left: 15px;
         font-size: 15px;
     }
 /*------INDEX------*/
@@ -872,7 +864,24 @@ footer div {
     }
     }
 
+
 @media screen and (max-width:725px) {
+
+/*---------Header----------*/
+    .logo-con-imagen img {
+    width: 55px;
+    height: 55px;
+    }
+    .logo-con-imagen h1 {
+    font-size: 25px;
+    margin-left: 15px;
+    }
+    .barra-de-navegacion nav ul li a {
+        font-size: 13px;
+    }
+    .log-in a {
+        font-size: 13px;
+    }
 
 /*-------RECETAS-------*/
     .grid-container-receta .imagen-de-receta img {
@@ -946,9 +955,38 @@ footer div {
     }
 }
 
+@media screen and (max-width:690px) {
+    header {
+        padding: 10px;
+    }
+}
+
 @media screen and (max-width:657px) {
 
-    /*------RECETAS------*/
+/*----------HEADER-----------*/
+
+    .log-in-y-navegacion {
+        height: 70px;
+    }
+    .logo-con-imagen img{
+        width: 45px;
+        height: 45px;
+    }
+    .logo-con-imagen h1{
+        font-size: 20px;
+        margin-left:10px ;
+    }
+    .log-in a {
+        font-size: 10px;
+    }
+    .log-in a i{
+        font-size: 15px;
+    }
+    .barra-de-navegacion nav ul li a {
+        font-size: 10px;
+    }
+
+/*------RECETAS------*/
     .grid-container-receta .imagen-de-receta img {
         width: 290px;
         height: 290px;
@@ -983,6 +1021,7 @@ footer div {
         font-size: 13px;
         margin-bottom: 7px;
     }
+
 }
 
 @media screen and (max-width:550px) {
@@ -1030,28 +1069,28 @@ footer div {
 }
 
 @media screen and (max-width:500px) {
+
+/*-----------HEADER-------------*/
+
+    header {
+        flex-direction: column;
+    }
+    .log-in-y-navegacion {
+        height: 50px;
+    }
+    .log-in {
+        justify-content: center;
+    }
+    .barra-de-navegacion nav ul {
+        justify-content: center;
+    }
+
+/*------------INDEX------------*/
     .hero {
         padding: 20px;
     }
     .hero h2{
         margin-bottom: 20px;
-    }
-}
-
-@media screen and (max-width:485px) {
-    /*------HEADER------*/
-    .barra-de-navegacion nav ul {
-        flex-direction: column;
-    }
-    .log-in-y-navegacion {
-        height: auto;
-        flex-direction: row-reverse;
-    }
-    .log-in {
-        flex-direction: column;
-    }
-    header {
-        position: static;
     }
 }
 
@@ -1066,6 +1105,12 @@ footer div {
 }
 
 @media screen and (max-width:355px) {
+/*---------------HEADER---------------*/
+
+header {
+    padding: 5px;
+}
+
     /*-------INDEX-------*/
     .contenedor-de-productos div img {
         width: 130px;
