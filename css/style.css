@@ -2,8 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Pacifico&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fredoka+One&display=swap');
+
 header {
-    font-family: 'Comfortaa', cursive
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 
 main {
@@ -11,7 +13,7 @@ main {
 }
 
 footer {
-    font-family: 'Comfortaa', cursive
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 
 /*!---RESET---*/
@@ -46,6 +48,8 @@ justify-content: space-between;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 /*---HEADER---Barra de log in---*/
@@ -293,6 +297,7 @@ transition: 1s;
     list-style: none;
     text-decoration: none;
     color: #d6d7da;
+    font-family: 'Fredoka One', cursive;
 }
 
 /*---CLASES DE PRODUCTOS---Posicionamiento---*/
@@ -373,12 +378,21 @@ transition: 1s;
 /*---PRODUCTOS---Color fuente de promocion 2 y 3---*/
 .carousel-caption {
     color: orangered;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: bolder;
+}
+
+.carousel-caption h5 {
+    font-size: 35px;
+}
+
+.carousel-caption p {
+    font-size: 20px;
 }
 
 /*---PRODUCTOS---Color de la promocion 1---*/
 .promo1{
     color: black;
-    font-weight: bolder;
 }
 
 /*---PRODUCTOS---Posicionamiento carousel y background---*/
