@@ -27,12 +27,10 @@ footer {
 /*!---HEADER---*/
 
 header {
-    background: rgb(51,65,92);
-background: linear-gradient(0deg, rgba(51,65,92,1) 0%, rgba(92,103,125,1) 34%, rgba(125,133,151,1) 77%, rgba(151,157,172,1) 100%);
-    position: sticky;
+    background: #8DB600;
     top: 0;
-    border-bottom: 5px solid #001233;
     padding: 20px;
+    position: sticky;
     box-shadow: 9px 10px 26px -9px rgba(0,0,0,0.74);
 -webkit-box-shadow: 9px 10px 26px -9px rgba(0,0,0,0.74);
 -moz-box-shadow: 9px 10px 26px -9px rgba(0,0,0,0.74);
@@ -62,7 +60,7 @@ justify-content: space-between;
 .log-in a {
     list-style: none;
     text-decoration: none;
-    color: #d6d7da;
+    color: white;
     margin-left: 20px;
     transition-duration: 0.5s;
 }
@@ -71,9 +69,17 @@ justify-content: space-between;
     font-size: 20px;
 }
 
-.log-in a:hover{
-    color: #001233;
-    text-shadow: 3px 2px 19px #d6d7da;
+.log-in .palabra-registrarse:hover{
+    color: #BF307C;
+    transform: scale(1.07);
+}
+
+.log-in .palabra-entrar:hover{
+    color: #C6DB00;
+    transform: scale(1.07);
+}
+.log-in .palabra-carrito:hover{
+    color: #FF8000;
     transform: scale(1.07);
 }
 
@@ -92,7 +98,7 @@ justify-content: space-between;
     font-size: 40px;
     font-family: 'Pacifico', cursive;
     font-weight: 700;
-    color: #d6d7da;
+    color: white;
     margin-left: 20px;
     margin-bottom: 0;
 }
@@ -119,14 +125,29 @@ justify-content: space-between;
     text-decoration: none;
     list-style: none;
     margin-left: 15px;
-    color: #d6d7da;
+    color: white;
     font-size: 18px;
     transition-duration: 0.5s;
 }
 
-.barra-de-navegacion nav ul li a:hover {
-    color: #001233;
-    text-shadow: 3px 2px 19px #d6d7da;
+.barra-de-navegacion nav ul li .palabra-inicio:hover {
+    color: #FF8000;
+}
+
+.barra-de-navegacion nav ul li .palabra-sobre-nosotros:hover {
+    color: #FFFF00;
+}
+
+.barra-de-navegacion nav ul li .palabra-productos:hover {
+    color: #FA3D3D;
+}
+
+.barra-de-navegacion nav ul li .palabra-contacto:hover {
+    color: #8322BB;
+}
+
+.barra-de-navegacion nav ul li .palabra-recetas:hover {
+    color: #2196F3;
 }
 
 /*!---HERO---*/
@@ -170,7 +191,7 @@ justify-content: space-between;
     border-bottom: 5px solid #001233;
     border-top: 5px solid #001233;
     background-color: #33415C;
-    color: #d6d7da;
+    color: white;
     font-size: 30px;
     box-shadow: 10px 10px 31px -6px rgba(0,0,0,0.75);
 -webkit-box-shadow: 10px 10px 31px -6px rgba(0,0,0,0.75);
@@ -1082,7 +1103,7 @@ footer div {
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:523px) {
 
 /*-----------HEADER-------------*/
 
@@ -1098,6 +1119,9 @@ footer div {
     .barra-de-navegacion nav ul {
         justify-content: center;
     }
+    .barra-de-navegacion nav ul li a{
+        margin: 5px;
+    }
 
 /*------------INDEX------------*/
     .hero {
@@ -1109,6 +1133,11 @@ footer div {
 }
 
 @media screen and (max-width:450px) {
+/*---------------HEADER---------------*/
+    header {
+        padding: 5px;
+    }
+
     /*------FOOTER------*/
     footer div {
         flex-direction: column;
@@ -1118,12 +1147,22 @@ footer div {
     }
 }
 
-@media screen and (max-width:355px) {
-/*---------------HEADER---------------*/
-
-header {
-    padding: 5px;
+@media screen and (max-width:363px) {
+    .log-in a {
+        font-size: 9px;
+        margin: 2px;
 }
+    
+    .barra-de-navegacion nav ul li a {
+        font-size: 9px;
+        margin: 2px;
+}
+header {
+    position: static;
+}
+}
+
+@media screen and (max-width:355px) {
 
     /*-------INDEX-------*/
     .contenedor-de-productos div img {
