@@ -169,7 +169,7 @@ justify-content: space-between;
 
 /*---HERO---Titulo---*/
 .hero h2{
-    font-size: 30px;
+    font-size: 35px;
     color: black;
     margin-bottom: 50px;
 }
@@ -177,6 +177,7 @@ justify-content: space-between;
 /*---HERO---Parrafo---*/
 .hero p{
     font-size: 30px;
+    text-align: center;
 }
 
 /*!---VENTAJAS---*/
@@ -859,7 +860,7 @@ footer div {
         font-size: 25px;
     }
     .hero h2 {
-        font-size: 25px;
+        font-size: 30px;
     }
     .ventajas-titulo {
         height: 60px;
@@ -957,7 +958,7 @@ footer div {
         font-size: 20px;
     }
     .hero h2 {
-        font-size: 20px;
+        font-size: 25px;
     }
     .ventajas-titulo {
         height: 50px;
@@ -1072,19 +1073,27 @@ footer div {
 
 @media screen and (max-width:550px) {
 /*------INDEX------*/
+    .hero h2 {
+        font-size: 20px;
+    }
+    .hero p{
+        font-size: 15px;
+    }
+    .hero {padding: 60px;
+    }
     .ventaja-par {
         flex-direction: column;
     }
     .ventaja-impar{
         flex-direction: column;
     }
-    .ventaja-par div{
+    .ventaja-par div {
         align-items: center;
     }
-    .ventaja-impar div{
+    .ventaja-impar div {
         align-items: center;
     }
-    .hero {padding: 60px;}
+
 }
 
 @media screen and (max-width:535px) {
@@ -1149,7 +1158,7 @@ footer div {
         padding: 5px;
     }
 
-    /*------FOOTER------*/
+/*---------------FOOTER---------------*/
     footer div {
         flex-direction: column;
     }
@@ -1173,11 +1182,26 @@ footer div {
 header {
     position: static;
 }
+
+/*-----------INDEX---------------*/
+
+    .ventaja-par div h3 {
+        font-size: 15px;
+    }
+    .ventaja-impar div h3 {
+        font-size: 15px;
+    }
+    .ventaja-par div p {
+        font-size: 12px;
+    }
+    .ventaja-impar div p {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width:355px) {
 
-    /*-------INDEX-------*/
+/*--------------INDEX--------------*/
     .contenedor-de-productos div img {
         width: 130px;
         height: 130px;
