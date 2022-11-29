@@ -182,59 +182,63 @@ justify-content: space-between;
 /*!---VENTAJAS---*/
 
 /*---VENTAJAS---Titulo Principal---*/
-.ventajas-titulo h2 {
+.ventajas-titulo {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70px;
     margin: 0;
-    border-bottom: 5px solid #001233;
-    border-top: 5px solid #001233;
-    background-color: #33415C;
+    background-color: #FF8000;
     color: white;
     font-size: 30px;
     box-shadow: 10px 10px 31px -6px rgba(0,0,0,0.75);
--webkit-box-shadow: 10px 10px 31px -6px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 31px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 31px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 31px -6px rgba(0,0,0,0.75);
 }
 
 /*---VENTAJAS---Fondo---*/
-.ventajas {
-    background-color: #979DAC;
+.ventajas{
+    background-color: #FD5F1F;
     padding: 10px;
 }
 
 /*---VENTAJAS---Titulo---*/
 .ventaja-par div h3{
     font-size: 30px;
+    color: white;
 }
 .ventaja-impar div h3{
     font-size: 30px;
+    color: white;
 }
 
 /*---VENTAJAS---Parrafos---*/
 .ventaja-par div p {
     font-size: 20px;
+    color: white;
     margin: 0;
+    text-align: justify;
 }
 
 .ventaja-impar div p {
     font-size: 20px;
+    color: white;
     margin: 0;
+    text-align: justify;
 }
 
 /*---VENTAJAS---Imagenes---*/
 .ventaja-par img {
     width: 180px;
     height: 200px;
-    border: 2px solid #001233;
+    border: 2px solid #8DB600;
     margin: 10px;
 }
 
 .ventaja-impar img{
     width: 180px;
     height: 200px;
-    border: 2px solid #001233;
+    border: 2px solid #8DB600;
     margin: 10px;
 }
 
@@ -269,17 +273,15 @@ justify-content: space-between;
 /*!---CLASES DE PRODUCTOS---*/
 
 .nuestros-productos {
-    background-color: #979DAC;
+    background-color: #FD5F1F;
 }
 
 /*---CLASES DE PRODUCTOS---Titulo---*/
 .nuestros-productos h2 {
     height: 70px;
-    border-bottom: 5px solid #001233;
-    border-top: 5px solid #001233;
     text-align: center;
-    background-color: #33415C;
-    color: #d6d7da;
+    background-color: #FF8000;
+    color: white;
     font-size: 30px;
     box-shadow: 10px 10px 31px -6px rgba(0,0,0,0.75);
 -webkit-box-shadow: 10px 10px 31px -6px rgba(0,0,0,0.75);
@@ -301,8 +303,8 @@ margin: 0;
     width: 154px;
     height: 200px;
     text-align: center;
-    border: 2px solid #023E7D;
-    background-color: #001845;
+    border: 2px solid #C6DB00;
+    background-color: #8DB600;
     box-shadow: 5px 5px 23px -5px rgba(0,0,0,0.75);
 -webkit-box-shadow: 5px 5px 23px -5px rgba(0,0,0,0.75);
 -moz-box-shadow: 5px 5px 23px -5px rgba(0,0,0,0.75);
@@ -317,8 +319,9 @@ transition: 1s;
     font-size: 15PX;
     list-style: none;
     text-decoration: none;
-    color: #d6d7da;
+    color: white;
     font-family: 'Fredoka One', cursive;
+    letter-spacing: 1px;
 }
 
 /*---CLASES DE PRODUCTOS---Posicionamiento---*/
@@ -725,8 +728,7 @@ padding: 20px;
 /*!-------FOOTER-------*/
 
 footer {
-    background: rgb(151,157,172);
-background: linear-gradient(0deg, rgba(151,157,172,1) 0%, rgba(125,133,151,1) 32%, rgba(92,103,125,1) 75%, rgba(51,65,92,1) 100%);
+    background-color: #8DB600;
 }
 
 /*---FOOTER---Imagenes de redes sociales---*/
@@ -740,7 +742,7 @@ footer a img {
 /*---FOOTER---Links de redes sociales---*/
 footer h2 {
     font-size: 25px;
-    color: #d6d7da;
+    color: white;
     font-style: italic;
     align-items: center;
 }
@@ -749,9 +751,22 @@ footer h2 {
 footer div a {
     list-style: none;
     text-decoration: none;
-    color: #d6d7da;
+    color: white;
     display: flex;
     align-items: center;
+    transition: 0.7s;
+}
+
+footer div .link-instagram:hover {
+    color: #FF8000;
+}
+
+footer div .link-twitter:hover {
+    color: #2196F3;
+}
+
+footer div .link-facebook:hover {
+    color: #3d5998;
 }
 
 /*---FOOTER---Posicionamiento---*/
@@ -846,11 +861,9 @@ footer div {
     .hero h2 {
         font-size: 25px;
     }
-    .ventajas-titulo h2 {
+    .ventajas-titulo {
         height: 60px;
         font-size: 25px;
-        border-bottom: 3px solid #001233;
-        border-top: 3px solid #001233;
     }
     .ventaja-par div h3{
         font-size: 25px;
@@ -866,9 +879,7 @@ footer div {
     }
     .nuestros-productos h2 {
         height: 60px;
-        font-size: 25px;
-        border-bottom: 3px solid #001233;
-        border-top: 3px solid #001233;    
+        font-size: 25px;    
     }
 
 /*------RECETAS------*/
@@ -948,7 +959,7 @@ footer div {
     .hero h2 {
         font-size: 20px;
     }
-    .ventajas-titulo h2 {
+    .ventajas-titulo {
         height: 50px;
         font-size: 18px;
     }
@@ -1148,11 +1159,13 @@ footer div {
 }
 
 @media screen and (max-width:363px) {
+
+/*------------HEADER------------*/
     .log-in a {
         font-size: 9px;
         margin: 2px;
 }
-    
+
     .barra-de-navegacion nav ul li a {
         font-size: 9px;
         margin: 2px;
