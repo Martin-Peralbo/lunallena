@@ -1,0 +1,927 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fredoka+One&display=swap");
+header {
+  font-family: 'Be Vietnam Pro', sans-serif; }
+
+main {
+  font-family: 'Comfortaa', cursive; }
+
+footer {
+  font-family: 'Be Vietnam Pro', sans-serif; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*---------------------------------------PALETA DE COLORES---------------------------------------*/
+/*---------------------------------------PALETA DE COLORES---------------------------------------*/
+header {
+  background: #8DB600;
+  top: 0;
+  padding: 20px;
+  position: sticky;
+  box-shadow: 9px 10px 26px -9px rgba(0, 0, 0, 0.74);
+  -webkit-box-shadow: 9px 10px 26px -9px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 9px 10px 26px -9px rgba(0, 0, 0, 0.74);
+  display: flex;
+  justify-content: space-between;
+  z-index: 10; }
+  header .logo-con-imagen {
+    display: flex;
+    align-items: center; }
+    header .logo-con-imagen img {
+      width: 90px;
+      height: 90px; }
+    header .logo-con-imagen h1 {
+      font-size: 40px;
+      font-family: 'Pacifico', cursive;
+      font-weight: 700;
+      color: white;
+      margin-left: 20px;
+      margin-bottom: 0; }
+  header .log-in-y-navegacion {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 700; }
+    header .log-in-y-navegacion .log-in {
+      display: flex;
+      justify-content: flex-end; }
+      header .log-in-y-navegacion .log-in .palabra-registrarse {
+        font-size: 18px;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        margin-left: 20px;
+        transition-duration: 0.5s; }
+        header .log-in-y-navegacion .log-in .palabra-registrarse:hover {
+          color: #BF307C;
+          transform: scale(1.07); }
+        header .log-in-y-navegacion .log-in .palabra-registrarse i {
+          font-size: 20px; }
+      header .log-in-y-navegacion .log-in .palabra-entrar {
+        font-size: 18px;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        margin-left: 20px;
+        transition-duration: 0.5s; }
+        header .log-in-y-navegacion .log-in .palabra-entrar:hover {
+          color: #C6DB00;
+          transform: scale(1.07); }
+        header .log-in-y-navegacion .log-in .palabra-entrar i {
+          font-size: 20px; }
+      header .log-in-y-navegacion .log-in .palabra-carrito {
+        font-size: 18px;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        margin-left: 20px;
+        transition-duration: 0.5s; }
+        header .log-in-y-navegacion .log-in .palabra-carrito:hover {
+          color: #FF8000;
+          transform: scale(1.07); }
+        header .log-in-y-navegacion .log-in .palabra-carrito i {
+          font-size: 20px; }
+    header .log-in-y-navegacion .barra-de-navegacion nav ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      justify-content: flex-end; }
+      header .log-in-y-navegacion .barra-de-navegacion nav ul li {
+        list-style: none;
+        transition-duration: 0.5s; }
+        header .log-in-y-navegacion .barra-de-navegacion nav ul li:hover {
+          transform: scale(1.05); }
+        header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {
+          text-decoration: none;
+          list-style: none;
+          margin-left: 15px;
+          color: white;
+          font-size: 18px;
+          transition-duration: 0.5s; }
+          header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio:hover {
+            color: #FF8000; }
+        header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {
+          text-decoration: none;
+          list-style: none;
+          margin-left: 15px;
+          color: white;
+          font-size: 18px;
+          transition-duration: 0.5s; }
+          header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros:hover {
+            color: #FFFF00; }
+        header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {
+          text-decoration: none;
+          list-style: none;
+          margin-left: 15px;
+          color: white;
+          font-size: 18px;
+          transition-duration: 0.5s; }
+          header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos:hover {
+            color: #FA3D3D; }
+        header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {
+          text-decoration: none;
+          list-style: none;
+          margin-left: 15px;
+          color: white;
+          font-size: 18px;
+          transition-duration: 0.5s; }
+          header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto:hover {
+            color: #8322BB; }
+        header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {
+          text-decoration: none;
+          list-style: none;
+          margin-left: 15px;
+          color: white;
+          font-size: 18px;
+          transition-duration: 0.5s; }
+          header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas:hover {
+            color: #2196F3; }
+
+/*---------------------------------------PALETA DE COLORES---------------------------------------*/
+.hero {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../img/background-image1.jpg");
+  height: 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px; }
+  .hero h2 {
+    font-size: 35px;
+    color: black;
+    margin-bottom: 50px; }
+  .hero p {
+    font-size: 30px;
+    text-align: center; }
+
+.seccion-ventajas div .ventajas-titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  margin: 0;
+  background-color: #FF8000;
+  color: white;
+  font-size: 30px;
+  box-shadow: 10px 10px 31px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 31px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 31px -6px rgba(0, 0, 0, 0.75); }
+
+.seccion-ventajas .ventajas {
+  background-color: #FD5F1F;
+  padding: 10px; }
+  .seccion-ventajas .ventajas .ventaja-par {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .seccion-ventajas .ventajas .ventaja-par div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly; }
+      .seccion-ventajas .ventajas .ventaja-par div h3 {
+        font-size: 30px;
+        color: white; }
+      .seccion-ventajas .ventajas .ventaja-par div p {
+        font-size: 20px;
+        color: white;
+        margin: 0;
+        text-align: justify; }
+    .seccion-ventajas .ventajas .ventaja-par img {
+      width: 180px;
+      height: 200px;
+      border: 2px solid #8DB600;
+      margin: 10px; }
+  .seccion-ventajas .ventajas .ventaja-impar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse; }
+    .seccion-ventajas .ventajas .ventaja-impar div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: flex-end; }
+      .seccion-ventajas .ventajas .ventaja-impar div h3 {
+        font-size: 30px;
+        color: white; }
+      .seccion-ventajas .ventajas .ventaja-impar div p {
+        font-size: 20px;
+        color: white;
+        margin: 0;
+        text-align: justify; }
+    .seccion-ventajas .ventajas .ventaja-impar img {
+      width: 180px;
+      height: 200px;
+      border: 2px solid #8DB600;
+      margin: 10px; }
+
+.nuestros-productos {
+  background-color: #FD5F1F; }
+  .nuestros-productos h2 {
+    height: 70px;
+    text-align: center;
+    background-color: #FF8000;
+    color: white;
+    font-size: 30px;
+    box-shadow: 10px 10px 31px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 31px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 31px -6px rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; }
+  .nuestros-productos .contenedor-de-grilla-productos {
+    padding: 20px;
+    display: flex;
+    justify-content: center; }
+    .nuestros-productos .contenedor-de-grilla-productos .contenedor-de-productos {
+      display: grid;
+      grid-template-columns: repeat(4, 154px);
+      grid-auto-rows: 200px;
+      gap: 20px; }
+      .nuestros-productos .contenedor-de-grilla-productos .contenedor-de-productos div {
+        width: 154px;
+        height: 200px;
+        text-align: center;
+        border: 2px solid #C6DB00;
+        background-color: #8DB600;
+        box-shadow: 5px 5px 23px -5px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 5px 5px 23px -5px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 5px 5px 23px -5px rgba(0, 0, 0, 0.75);
+        transition: 1s; }
+        .nuestros-productos .contenedor-de-grilla-productos .contenedor-de-productos div:hover {
+          transform: scale(1.1); }
+        .nuestros-productos .contenedor-de-grilla-productos .contenedor-de-productos div img {
+          width: 150px;
+          height: 150px;
+          margin-bottom: 10px; }
+        .nuestros-productos .contenedor-de-grilla-productos .contenedor-de-productos div a {
+          font-size: 15PX;
+          list-style: none;
+          text-decoration: none;
+          color: white;
+          font-family: 'Fredoka One', cursive;
+          letter-spacing: 1px; }
+
+/*---------------------------------------PALETA DE COLORES---------------------------------------*/
+.quienes-somos {
+  background-image: linear-gradient(rgba(219, 219, 219, 0.6), rgba(207, 207, 207, 0.6)), url(../img/animales.jpg);
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .quienes-somos h2 {
+    font-size: 35px;
+    margin-bottom: 20px; }
+  .quienes-somos p {
+    font-size: 25px;
+    text-align: center; }
+
+.quienes-somos-video {
+  background-image: url(../img/background-image2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  border-top: 30px solid #C6DB00;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*---------------------------------------PALETA DE COLORES---------------------------------------*/
+.promociones {
+  background-color: #FD5F1F;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; }
+  .promociones div h2 {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    font-weight: bold;
+    color: white; }
+  .promociones .carousel {
+    width: 582px;
+    height: 405px;
+    margin: 20px; }
+    .promociones .carousel .promo1 {
+      color: black; }
+    .promociones .carousel .carousel-caption {
+      color: orangered;
+      font-family: 'Be Vietnam Pro', sans-serif;
+      font-weight: bolder; }
+      .promociones .carousel .carousel-caption h5 {
+        font-size: 35px; }
+      .promociones .carousel .carousel-caption p {
+        font-size: 20px; }
+
+.productos {
+  background-color: #FF8000; }
+  .productos .barra-de-busqueda {
+    height: 90px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center; }
+    .productos .barra-de-busqueda form p {
+      margin: 0;
+      font-size: 20px;
+      color: white; }
+    .productos .barra-de-busqueda form input {
+      border-radius: 5px;
+      background-color: lightgrey; }
+    .productos .barra-de-busqueda form .boton {
+      background-color: #8DB600;
+      font-size: 15px;
+      font-weight: bolder;
+      padding: 5px;
+      border: 2px solid #C6DB00;
+      border-radius: 100px; }
+  .productos .grid-de-producto {
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-auto-rows: 280px;
+    gap: 30px;
+    padding: 30px; }
+    .productos .grid-de-producto .titulo-de-producto h2 {
+      font-size: 25px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #C6DB00;
+      background-color: #8DB600; }
+    .productos .grid-de-producto .tarjeta-de-producto {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: #8DB600; }
+      .productos .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+        width: 200px;
+        height: 200px; }
+      .productos .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+        padding: 7px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .productos .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+          font-size: 15px;
+          text-align: center; }
+        .productos .grid-de-producto .tarjeta-de-producto .texto-de-producto div {
+          display: flex;
+          justify-content: space-between; }
+          .productos .grid-de-producto .tarjeta-de-producto .texto-de-producto div h4 {
+            font-size: 15px; }
+          .productos .grid-de-producto .tarjeta-de-producto .texto-de-producto div a {
+            font-size: 14px;
+            text-decoration: none;
+            color: black; }
+
+.visitanos {
+  background-color: #C6DB00;
+  height: 90vh;
+  font-size: 30px;
+  padding: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; }
+  .visitanos .contenedor-texto-iframe {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%; }
+    .visitanos .contenedor-texto-iframe .texto-visitanos {
+      text-align: center;
+      border: 3px solid #FFFF00;
+      padding: 10px;
+      background-color: #8DB600;
+      width: 500px;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .visitanos .contenedor-texto-iframe .texto-visitanos h2 {
+        margin: 0; }
+      .visitanos .contenedor-texto-iframe .texto-visitanos p {
+        margin: 20px 0px 0px 0px; }
+    .visitanos .contenedor-texto-iframe iframe {
+      height: 300px;
+      width: 300px; }
+  .visitanos .enlace-interno {
+    font-size: 25px;
+    border: 3px solid #FFFF00;
+    background: #8DB600;
+    padding: 20px; }
+    .visitanos .enlace-interno a {
+      text-decoration: none;
+      color: white;
+      transition: 1s; }
+      .visitanos .enlace-interno a:hover {
+        color: #FF8000;
+        text-shadow: 3px 2px 19px #d6d7da; }
+
+.opinion {
+  background-color: #FF8000;
+  color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .opinion p {
+    font-size: 20px;
+    margin-bottom: 20px; }
+  .opinion form div {
+    display: flex;
+    justify-content: center; }
+  .opinion form div textarea {
+    width: 400px;
+    margin-top: 20px; }
+  .opinion form div input {
+    background-color: #8DB600;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 5px;
+    border: 2px solid #C6DB00;
+    border-radius: 100px;
+    margin: 10px; }
+
+.e-mail {
+  background-color: #FD5F1F;
+  height: 120px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px; }
+  .e-mail p {
+    font-size: 20px;
+    text-align: center; }
+
+.encabezado {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(../img/background-image-encabezado-recetas.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 260px;
+  border-bottom: 5px solid #C6DB00;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px; }
+  .encabezado h2 {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    font-weight: bolder; }
+  .encabezado p {
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    font-weight: bolder; }
+
+.receta {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../img/background-image-recetas.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .receta h3 {
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px; }
+  .receta .grid-container-receta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "ingredientes imagen" "instrucciones instrucciones";
+    padding: 0px 50px 0px 50px; }
+    .receta .grid-container-receta .ingredientes {
+      grid-area: ingredientes; }
+      .receta .grid-container-receta .ingredientes h4 {
+        margin-bottom: 30px;
+        font-size: 20px;
+        text-decoration: underline;
+        font-weight: 900; }
+      .receta .grid-container-receta .ingredientes ul {
+        padding: 0; }
+        .receta .grid-container-receta .ingredientes ul li {
+          font-size: 20px;
+          margin-bottom: 10px;
+          list-style: none; }
+    .receta .grid-container-receta .instrucciones {
+      grid-area: instrucciones; }
+      .receta .grid-container-receta .instrucciones p {
+        font-size: 25px;
+        margin-bottom: 30px; }
+    .receta .grid-container-receta .imagen-de-receta {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .receta .grid-container-receta .imagen-de-receta img {
+        grid-area: imagen;
+        width: 450px;
+        height: 450px;
+        border: 3px solid black; }
+
+/*---------------------------------------PALETA DE COLORES---------------------------------------*/
+footer {
+  background-color: #8DB600;
+  height: 180px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center; }
+  footer h2 {
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+    align-items: center; }
+  footer div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    footer div .link-instagram {
+      list-style: none;
+      text-decoration: none;
+      color: white;
+      display: flex;
+      align-items: center;
+      transition: 0.7s; }
+      footer div .link-instagram img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px; }
+      footer div .link-instagram span {
+        transition: 0.7s; }
+        footer div .link-instagram span:hover {
+          color: #FF8000; }
+    footer div .link-facebook {
+      list-style: none;
+      text-decoration: none;
+      color: white;
+      display: flex;
+      align-items: center;
+      transition: 0.7s; }
+      footer div .link-facebook img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px; }
+      footer div .link-facebook span {
+        transition: 0.7s; }
+        footer div .link-facebook span:hover {
+          color: #2196F3; }
+    footer div .link-twitter {
+      list-style: none;
+      text-decoration: none;
+      color: white;
+      display: flex;
+      align-items: center;
+      transition: 0.7s; }
+      footer div .link-twitter img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px; }
+      footer div .link-twitter span {
+        transition: 0.7s; }
+        footer div .link-twitter span:hover {
+          color: #3d5998; }
+
+@media screen and (max-width: 963px) {
+  /*----------------------------HEADER----------------------------*/
+  header {
+    padding: 10px; }
+  header .logo-con-imagen img {
+    width: 80px;
+    height: 80px; }
+  header .logo-con-imagen h1 {
+    font-size: 35px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li a {
+    margin-left: 13px;
+    font-size: 16px; }
+  header .log-in-y-navegacion .log-in a {
+    margin-left: 13px;
+    font-size: 16px; } }
+
+@media screen and (max-width: 941px) {
+  /*----------------------------RECETAS----------------------------*/
+  .receta h3 {
+    font-size: 30px;
+    padding: 20px; }
+  .receta .grid-container-receta .imagen-de-receta img {
+    width: 430px;
+    height: 430px; } }
+
+@media screen and (max-width: 919px) {
+  /*----------------------------RECETAS----------------------------*/
+  .receta .grid-container-receta .imagen-de-receta img {
+    width: 400px;
+    height: 400px; } }
+
+@media screen and (max-width: 891px) {
+  /*----------------------------RECETAS----------------------------*/
+  .receta .grid-container-receta .imagen-de-receta img {
+    width: 390px;
+    height: 390px; }
+  .receta .grid-container-receta .ingredientes h4 {
+    font-size: 17px;
+    margin-bottom: 25px; }
+  .receta .grid-container-receta .ingredientes ul li {
+    font-size: 17px; }
+  .receta .grid-container-receta .instrucciones p {
+    font-size: 23px;
+    margin-bottom: 27px; }
+  .receta .grid-container-receta {
+    padding: 0 40px 0 40px; } }
+
+@media screen and (max-width: 870px) {
+  /*----------------------------HEADER----------------------------*/
+  header .logo-con-imagen {
+    justify-content: center; }
+  header .logo-con-imagen img {
+    width: 70px;
+    height: 70px; }
+  header .logo-con-imagen h1 {
+    font-size: 30px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li a {
+    margin-left: 10px;
+    font-size: 15px; }
+  header .log-in-y-navegacion .log-in a {
+    margin-left: 15px;
+    font-size: 15px; }
+  /*------INDEX------*/
+  .hero p {
+    font-size: 25px; }
+  .hero h2 {
+    font-size: 30px; }
+  .seccion-ventajas div .ventajas-titulo {
+    height: 60px;
+    font-size: 25px; }
+  .seccion-ventajas .ventajas .ventaja-par div h3 {
+    font-size: 25px; }
+  .seccion-ventajas .ventajas .ventaja-impar div h3 {
+    font-size: 25px; }
+  .seccion-ventajas .ventajas .ventaja-par div p {
+    font-size: 15px; }
+  .seccion-ventajas .ventajas .ventaja-impar div p {
+    font-size: 15px; }
+  .nuestros-productos h2 {
+    height: 60px;
+    font-size: 25px; }
+  /*----------------------------RECETAS----------------------------*/
+  .encabezado h2 {
+    font-size: 26px; }
+  .encabezado p {
+    font-size: 21px; } }
+
+@media screen and (max-width: 827px) {
+  /*----------------------------RECETAS----------------------------*/
+  .receta .grid-container-receta .imagen-de-receta img {
+    width: 350px;
+    height: 350px; }
+  .receta .grid-container-receta .ingredientes h4 {
+    font-size: 15px; }
+  .receta .grid-container-receta .ingredientes ul li {
+    font-size: 15px;
+    margin-bottom: 8px; }
+  .receta .grid-container-receta .instrucciones p {
+    font-size: 20px; } }
+
+@media screen and (max-width: 725px) {
+  /*----------------------------HEADER----------------------------*/
+  header .logo-con-imagen img {
+    width: 55px;
+    height: 55px; }
+  header .logo-con-imagen h1 {
+    font-size: 25px;
+    margin-left: 15px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li a {
+    font-size: 13px; }
+  header .log-in-y-navegacion .log-in a {
+    font-size: 13px; }
+  /*----------------------------RECETAS----------------------------*/
+  .receta .grid-container-receta .imagen-de-receta img {
+    width: 320px;
+    height: 320px; }
+  .receta .grid-container-receta .ingredientes h4 {
+    font-size: 15px;
+    margin-bottom: 22px; }
+  .receta .grid-container-receta .ingredientes ul li {
+    font-size: 15px;
+    margin-bottom: 6px; }
+  .receta .grid-container-receta .instrucciones p {
+    font-size: 18px;
+    margin-bottom: 23px; } }
+
+@media screen and (max-width: 700px) {
+  /*----------------------------INDEX----------------------------*/
+  .nuestros-productos .contenedor-de-grilla-productos .contenedor-de-productos {
+    grid-template-columns: repeat(3, 154px); }
+  .hero p {
+    font-size: 20px; }
+  .hero h2 {
+    font-size: 25px; }
+  .seccion-ventajas div .ventajas-titulo {
+    height: 50px;
+    font-size: 18px; }
+  .seccion-ventajas .ventajas .ventaja-par div h3 {
+    font-size: 18px; }
+  .seccion-ventajas .ventajas .ventaja-impar div h3 {
+    font-size: 18px; }
+  .seccion-ventajas .ventajas .ventaja-par div p {
+    font-size: 15px; }
+  .seccion-ventajas .ventajas .ventaja-impar div p {
+    font-size: 15px; }
+  .nuestros-productos h2 {
+    height: 50px;
+    font-size: 18px; }
+  /*----------------------------RECETAS----------------------------*/
+  .receta h3 {
+    font-size: 25px;
+    padding: 10px; }
+  .receta .grid-container-receta {
+    padding: 0 20px 0 20px; }
+  .encabezado h2 {
+    font-size: 21px; }
+  .encabezado p {
+    font-size: 16px; }
+  /*----------------------------FOOTER----------------------------*/
+  footer {
+    height: 140px; }
+  footer div a span {
+    display: none; }
+  footer h2 {
+    font-size: 20px; } }
+
+@media screen and (max-width: 690px) {
+  /*----------------------------HEADER----------------------------*/
+  header {
+    padding: 10px; } }
+
+@media screen and (max-width: 657px) {
+  /*----------------------------HEADER----------------------------*/
+  header .log-in-y-navegacion {
+    height: 70px; }
+  header .logo-con-imagen img {
+    width: 45px;
+    height: 45px; }
+  header .logo-con-imagen h1 {
+    font-size: 20px;
+    margin-left: 10px; }
+  header .log-in-y-navegacion .log-in a {
+    font-size: 10px; }
+  header .log-in-y-navegacion .log-in a i {
+    font-size: 15px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li a {
+    font-size: 10px; }
+  /*----------------------------RECETAS----------------------------*/
+  .receta .grid-container-receta .imagen-de-receta img {
+    width: 290px;
+    height: 290px; }
+  .receta .grid-container-receta .ingredientes h4 {
+    font-size: 15px; }
+  .receta .grid-container-receta .ingredientes ul li {
+    font-size: 15px;
+    margin-bottom: 10px; }
+  .receta .grid-container-receta .instrucciones p {
+    font-size: 18px;
+    margin-bottom: 23px; }
+  .receta .grid-container-receta {
+    padding: 0 10px 0 10px; } }
+
+@media screen and (max-width: 607px) {
+  /*----------------------------RECETAS----------------------------*/
+  .receta .grid-container-receta .imagen-de-receta img {
+    width: 240px;
+    height: 240px; }
+  .receta .grid-container-receta .ingredientes h4 {
+    margin-bottom: 18px; }
+  .receta .grid-container-receta .ingredientes ul li {
+    font-size: 13px;
+    margin-bottom: 7px; } }
+
+@media screen and (max-width: 550px) {
+  /*----------------------------INDEX----------------------------*/
+  .hero h2 {
+    font-size: 20px; }
+  .hero p {
+    font-size: 15px; }
+  .hero {
+    padding: 60px; }
+  .seccion-ventajas .ventajas .ventaja-par {
+    flex-direction: column; }
+  .seccion-ventajas .ventajas .ventaja-impar {
+    flex-direction: column; }
+  .seccion-ventajas .ventajas .ventaja-par div {
+    align-items: center; }
+  .seccion-ventajas .ventajas .ventaja-impar div {
+    align-items: center; } }
+
+@media screen and (max-width: 535px) {
+  /*----------------------------INDEX----------------------------*/
+  .nuestros-productos .contenedor-de-grilla-productos .contenedor-de-productos {
+    grid-template-columns: repeat(2, 154px); }
+  .hero {
+    padding: 40px; }
+  .hero h2 {
+    margin-bottom: 30px; }
+  /*----------------------------RECETAS----------------------------*/
+  .receta .grid-container-receta {
+    grid-template-columns: 1fr;
+    grid-template-areas: "ingredientes" "imagen" "instrucciones" "instrucciones";
+    gap: 10px; }
+  .receta .grid-container-receta .ingredientes {
+    text-align: center; } }
+
+@media screen and (max-width: 523px) {
+  /*----------------------------HEADER----------------------------*/
+  header {
+    flex-direction: column; }
+  header .log-in-y-navegacion {
+    height: 50px; }
+  header .log-in-y-navegacion .log-in {
+    justify-content: center; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul {
+    justify-content: center; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li a {
+    margin: 5px; }
+  /*----------------------------INDEX----------------------------*/
+  .hero {
+    padding: 20px; }
+  .hero h2 {
+    margin-bottom: 20px; } }
+
+@media screen and (max-width: 453px) {
+  /*----------------------------HEADER----------------------------*/
+  header {
+    padding: 5px; }
+  /*----------------------------FOOTER----------------------------*/
+  footer {
+    flex-direction: column;
+    height: 140px; } }
+
+@media screen and (max-width: 363px) {
+  /*----------------------------HEADER----------------------------*/
+  header .log-in-y-navegacion .log-in a {
+    font-size: 9px;
+    margin: 2px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li a {
+    font-size: 9px;
+    margin: 2px; }
+  header {
+    position: static; }
+  /*----------------------------INDEX----------------------------*/
+  .seccion-ventajas .ventajas .ventaja-par div h3 {
+    font-size: 15px; }
+  .seccion-ventajas .ventajas .ventaja-impar div h3 {
+    font-size: 15px; }
+  .seccion-ventajas .ventajas .ventaja-par div p {
+    font-size: 12px; }
+  .seccion-ventajas .ventajas .ventaja-impar div p {
+    font-size: 12px; } }
+
+@media screen and (max-width: 355px) {
+  /*----------------------------INDEX----------------------------*/
+  .nuestros-productos .contenedor-de-grilla-productos .contenedor-de-productos div img {
+    width: 130px;
+    height: 130px; }
+  .nuestros-productos .contenedor-de-grilla-productos .contenedor-de-productos div {
+    width: 134px;
+    height: 180px; }
+  .nuestros-productos .contenedor-de-grilla-productos .contenedor-de-productos div a {
+    font-size: 13PX; }
+  .nuestros-productos .contenedor-de-grilla-productos {
+    padding: 10px; }
+  .nuestros-productos .contenedor-de-grilla-productos .contenedor-de-productos {
+    grid-template-columns: repeat(2, 134px);
+    grid-auto-rows: 180px; } }

@@ -32,10 +32,10 @@ header {
     padding: 20px;
     position: sticky;
     box-shadow: 9px 10px 26px -9px rgba(0,0,0,0.74);
--webkit-box-shadow: 9px 10px 26px -9px rgba(0,0,0,0.74);
--moz-box-shadow: 9px 10px 26px -9px rgba(0,0,0,0.74);
-display: flex;
-justify-content: space-between; 
+    -webkit-box-shadow: 9px 10px 26px -9px rgba(0,0,0,0.74);
+    -moz-box-shadow: 9px 10px 26px -9px rgba(0,0,0,0.74);
+    display: flex;
+    justify-content: space-between; 
     z-index: 10;
 }
 
@@ -357,14 +357,15 @@ transition: 1s;
 /*---QUIENES SOMOS---Titulo---*/
 
 .quienes-somos h2 {
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 20px;
 }
 
 /*---QUIENES SOMOS---Texto---*/
 
 .quienes-somos p {
-    font-size: 20px;
+    font-size: 25px;
+    text-align: center;
 }
 
 .quienes-somos-video {
@@ -373,7 +374,7 @@ transition: 1s;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    border-top: 30px solid #33415C;
+    border-top: 30px solid #C6DB00;
 }
 
 /*---QUIENES SOMOS---Posicionamiento---*/
@@ -422,7 +423,7 @@ transition: 1s;
 
 /*---PRODUCTOS---Posicionamiento carousel y background---*/
 .promociones {
-    background-color: #5C677D;
+    background-color: #FF8000;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -449,8 +450,8 @@ transition: 1s;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #33415C;
-    background-color: #979DAC;
+    color: #C6DB00;
+    background-color: #8DB600;
 }
 
 .texto-de-producto {
@@ -481,7 +482,7 @@ transition: 1s;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-background-color: #979DAC;
+    background-color: #8DB600;
 }
 
 .texto-de-producto div {
@@ -491,7 +492,7 @@ background-color: #979DAC;
 
 /*---PRODUCTOS---Grid de los Productos y background---*/
 .productos {
-    background-color: #33415C;
+    background-color: #FD5F1F;
 }
 
 .grid-de-producto {
@@ -506,11 +507,11 @@ background-color: #979DAC;
 
 /*---CONTACTANOS---background primera seccion---*/
 .visitanos {
-    background-color: #979DAC;
+    background-color: #C6DB00;
     height: 90vh;
     font-size: 30px;
     padding: 30px;
-    color: #d6d7da;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -527,9 +528,9 @@ background-color: #979DAC;
 /*---CONTACTANOS---Estilo de texto---*/
 .texto-visitanos {
     text-align: center;
-    border: 3px solid #d6d7da;
+    border: 3px solid #FFFF00;
     padding: 10px;
-    background-color: #5C677D;
+    background-color: #8DB600;
     width: 500px;
     height: 300px;
     display: flex;
@@ -554,26 +555,25 @@ background-color: #979DAC;
 /*---CONTACTANOS---estilo del enlace---*/
 .visitanos .enlace-interno {
 font-size: 25px;
-border: 3px solid #d6d7da;
-background: rgb(51,65,92);
-background: linear-gradient(0deg, rgba(51,65,92,1) 0%, rgba(92,103,125,1) 54%, rgba(125,133,151,1) 100%);
+border: 3px solid #FFFF00;
+background: #8DB600;
 padding: 20px;
 }
 
 /*---CONTACTANOS---color de "aqui"---*/
 .visitanos .enlace-interno a {
     text-decoration: none;
-    color: #33415C;
+    color: white;
     transition: 1s;
 }
 .visitanos .enlace-interno a:hover{
-    color: #d6d7da;
+    color: #FF8000;
     text-shadow: 3px 2px 19px #d6d7da;
 }
 /*---CONTACTANOS---opinion---*/
 .opinion {
-    background-color: #7D8597;
-    color: #d6d7da;
+    background-color: #FF8000;
+    color: white;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -602,9 +602,9 @@ padding: 20px;
 
 /*---CONTACTANOS---email---*/
 .e-mail {
-    background-color: #5C677D;
+    background-color: #FD5F1F;
     height: 120px;
-    color: #d6d7da;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -621,12 +621,12 @@ padding: 20px;
 
 /*---RECETAS---Encabezado---*/
 .encabezado {
-    background-image: url(../img/background-image-encabezado-recetas.jpg);
+    background-image:linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.3)), url(../img/background-image-encabezado-recetas.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 260px;
-    border-bottom: 5px solid  #001845;
+    border-bottom: 5px solid  #C6DB00;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -638,16 +638,20 @@ padding: 20px;
 .encabezado h2 {
     font-size: 30px;
     text-align: center;
+    color: black;
+    font-weight: bolder;
 }
 
 .encabezado p {
     font-size: 25px;
     text-align: center;
+    color: black;
+    font-weight: bolder;
 }
 
 /*---RECETAS---Receta---*/
 .receta {
-    background-image:linear-gradient(rgba(255, 255, 255, 0.35),rgba(255, 255, 255, 0.35)), url(../img/background-image-recetas.jpg);
+    background-image:linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7)), url(../img/background-image-recetas.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -755,18 +759,21 @@ footer div a {
     color: white;
     display: flex;
     align-items: center;
+}
+
+footer div a span {
     transition: 0.7s;
 }
 
-footer div .link-instagram:hover {
+footer div .link-instagram span:hover {
     color: #FF8000;
 }
 
-footer div .link-twitter:hover {
+footer div .link-twitter span:hover {
     color: #2196F3;
 }
 
-footer div .link-facebook:hover {
+footer div .link-facebook span:hover {
     color: #3d5998;
 }
 
@@ -998,7 +1005,13 @@ footer div {
 
 /*---------FOOTER---------*/
     footer {
-        flex-direction: column;
+        height: 140px;
+    }
+    footer div a span {
+        display: none;
+    }
+    footer h2 {
+        font-size: 20px;
     }
 }
 
@@ -1152,18 +1165,17 @@ footer div {
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:453px) {
 /*---------------HEADER---------------*/
     header {
         padding: 5px;
     }
 
 /*---------------FOOTER---------------*/
-    footer div {
-        flex-direction: column;
-    }
+
     footer {
-        height: 250px;
+        flex-direction: column;
+        height: 140px;
     }
 }
 

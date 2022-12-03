@@ -1,0 +1,130 @@
+@import "../base/variables";
+
+header {
+    background: $color-3;
+    top: 0;
+    padding: 20px;
+    position: sticky;
+    box-shadow: 9px 10px 26px -9px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 9px 10px 26px -9px rgba(0,0,0,0.74);
+    -moz-box-shadow: 9px 10px 26px -9px rgba(0,0,0,0.74);
+    display: flex;
+    justify-content: space-between; 
+    z-index: 10;
+    .logo-con-imagen {
+        display: flex;
+        align-items: center;
+        img {
+            width: 90px;
+            height: 90px;
+            }
+        h1 {
+            font-size: 40px;
+            font-family: 'Pacifico', cursive;
+            font-weight: 700;
+            color: white;
+            margin-left: 20px;
+            margin-bottom: 0;
+            }
+        }
+    .log-in-y-navegacion {
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-transform: uppercase;
+        font-weight: 700;
+        .log-in {
+            display: flex;
+            justify-content: flex-end;
+            .palabra-registrarse {
+                font-size: 18px;
+                list-style: none;
+                text-decoration: none;
+                color: white;
+                margin-left: 20px;
+                transition-duration: 0.5s;
+                &:hover {color: #BF307C;
+                        transform: scale(1.07);}
+                i {font-size: 20px;}
+            }
+            .palabra-entrar {
+                font-size: 18px;
+                list-style: none;
+                text-decoration: none;
+                color: white;
+                margin-left: 20px;
+                transition-duration: 0.5s;
+                &:hover {color: $color-4;
+                    transform: scale(1.07);}
+                i {font-size: 20px;}
+            }
+            .palabra-carrito {
+                font-size: 18px;
+                list-style: none;
+                text-decoration: none;
+                color: white;
+                margin-left: 20px;
+                transition-duration: 0.5s;
+                &:hover {color: $color-2;
+                    transform: scale(1.07);}
+                i {font-size: 20px;}
+            }
+        }
+    .barra-de-navegacion {
+        nav {
+            ul {
+                display: flex;
+                margin: 0;
+                padding: 0;
+                justify-content: flex-end;
+                li {
+                    list-style: none;
+                    transition-duration: 0.5s;
+                    &:hover {transform: scale(1.05);}
+                    .palabra-inicio {text-decoration: none;
+                        list-style: none;
+                        margin-left: 15px;
+                        color: white;
+                        font-size: 18px;
+                        transition-duration: 0.5s;
+                        &:hover {color: #FF8000;}
+                    }
+                    .palabra-sobre-nosotros {text-decoration: none;
+                        list-style: none;
+                        margin-left: 15px;
+                        color: white;
+                        font-size: 18px;
+                        transition-duration: 0.5s;
+                    &:hover {color: $color-5;}
+                    }
+                    .palabra-productos {text-decoration: none;
+                        list-style: none;
+                        margin-left: 15px;
+                        color: white;
+                        font-size: 18px;
+                        transition-duration: 0.5s;
+                    &:hover {color: $color-7;}
+                    }
+                    .palabra-contacto {text-decoration: none;
+                        list-style: none;
+                        margin-left: 15px;
+                        color: white;
+                        font-size: 18px;
+                        transition-duration: 0.5s;
+                        &:hover {color: $color-9;}
+                    }
+                    .palabra-recetas {text-decoration: none;
+                        list-style: none;
+                        margin-left: 15px;
+                        color: white;
+                        font-size: 18px;
+                        transition-duration: 0.5s;
+                    &:hover {color: $color-6;}
+                    }
+                }
+            }
+        }
+    }
+    }
+}
