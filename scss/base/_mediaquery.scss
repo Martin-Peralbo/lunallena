@@ -1,3 +1,133 @@
+@media screen and (max-width:1180px) {
+
+/*----------------------------PRODUCTOS----------------------------*/
+
+.productos .contenedor-de-grillas .grid-de-producto {
+        grid-template-columns: repeat(5, 190px);
+        grid-auto-rows: 265px;
+        gap: 25px;
+        padding: 25px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+        width: 190px;
+        height: 265px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+        font-size: 24px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+        font-size: 17px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+        width: 190px;
+        height: 190px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+        height: 75px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+        font-size: 14px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+        font-size: 14px; 
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+        font-size: 14px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+        font-size: 14px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+        height: 19px;
+        }
+}
+
+@media screen and (max-width:1100px) {
+
+/*----------------------------PRODUCTOS----------------------------*/
+
+.productos .contenedor-de-grillas .grid-de-producto {
+        grid-template-columns: repeat(5, 180px);
+        grid-auto-rows: 250px;
+        gap: 20px;
+        padding: 21px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+        width: 180px;
+        height: 250px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+        font-size: 23px;}
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+        font-size: 16px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+        width: 180px;
+        height: 180px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+        height: 70px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+        font-size: 13px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+        font-size: 13px; 
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+        font-size: 13px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+        font-size: 13px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+        height: 18px;
+        }
+}
+
+@media screen and (max-width:1020px) {
+
+/*----------------------------PRODUCTOS----------------------------*/
+        
+.productos .contenedor-de-grillas .grid-de-producto {
+        grid-template-columns: repeat(5, 170px);
+        grid-auto-rows: 235px;
+        gap: 15px;
+        padding: 15px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+        width: 170px;
+        height: 235px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+        font-size: 22px;}
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+        font-size: 15px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+        width: 170px;
+        height: 170px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+        height: 65px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+        font-size: 12px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+        font-size: 12px; 
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+        font-size: 12px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+        font-size: 12px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+        height: 17px;
+        }
+}
+
 @media screen and (max-width:963px) {
 
 /*----------------------------HEADER----------------------------*/
@@ -12,17 +142,9 @@ header .logo-con-imagen img {
 header .logo-con-imagen h1 {
         font-size: 35px;
         }
-header .log-in-y-navegacion .barra-de-navegacion nav ul li a {
-        margin-left: 13px; 
-        font-size: 16px;
-        }
-header .log-in-y-navegacion .log-in a {   
-        margin-left: 13px;
-        font-size: 16px;
-        }
 }
 
-@media screen and (max-width:941px) {
+@media screen and (max-width:956px) {
 
 /*----------------------------RECETAS----------------------------*/
 
@@ -33,6 +155,56 @@ header .log-in-y-navegacion .log-in a {
 .receta .grid-container-receta .imagen-de-receta img {
         width: 430px;
         height: 430px;
+        }
+
+/*----------------------------QUIENES SOMOS----------------------------*/
+
+.quienes-somos h2 {
+        font-size: 33px;}
+.quienes-somos p {
+        font-size: 23px;}
+}
+
+@media screen and (max-width:940px) {
+
+/*----------------------------PRODUCTOS----------------------------*/
+
+.productos .contenedor-de-grillas .grid-de-producto {
+        grid-template-columns: repeat(5, 160px);
+        grid-auto-rows: 220px;
+        gap: 10px;
+        padding: 10px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+        width: 160px;
+        height: 220px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+        font-size: 21px;}
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+        font-size: 14px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+        width: 160px;
+        height: 160px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+        height: 60px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+        font-size: 11px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+        font-size: 11px; 
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+        font-size: 11px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+        font-size: 11px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+        height: 16px;
         }
 }
 
@@ -47,6 +219,26 @@ header .log-in-y-navegacion .log-in a {
 }
 
 @media screen and (max-width:891px) {
+
+/*----------------------------CONTACTO----------------------------*/
+
+.visitanos .contenedor-texto-iframe .texto-visitanos {
+        width: 400px;
+        }
+.visitanos .contenedor-texto-iframe iframe {
+        height: 290px;
+        width: 290px;
+        }
+.visitanos .contenedor-texto-iframe .texto-visitanos p {
+        font-size: 25px;
+        }
+.visitanos .contenedor-texto-iframe .texto-visitanos h2 {
+        font-size: 25px;
+        }
+.visitanos .enlace-interno {
+        font-size: 23px;
+        padding: 19px; 
+        }
 
 /*----------------------------RECETAS----------------------------*/
 
@@ -84,22 +276,33 @@ header .logo-con-imagen img {
 header .logo-con-imagen h1 {
         font-size: 30px;
         }
-header .log-in-y-navegacion .barra-de-navegacion nav ul li a {
-        margin-left: 10px; 
-        font-size: 15px;
-        }
-header .log-in-y-navegacion .log-in a {   
-        margin-left: 15px;
-        font-size: 15px;
-        }
+header .log-in-y-navegacion .log-in .palabra-registrarse {margin-left: 10px; 
+        font-size: 15px;}
+header .log-in-y-navegacion .log-in .palabra-entrar {margin-left: 10px; 
+        font-size: 15px;}
+header .log-in-y-navegacion .log-in .palabra-carrito {margin-left: 10px; 
+        font-size: 15px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {margin-left: 10px; 
+        font-size: 15px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {margin-left: 10px; 
+        font-size: 15px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {margin-left: 10px; 
+        font-size: 15px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {margin-left: 10px; 
+        font-size: 15px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {margin-left: 10px; 
+        font-size: 15px;}
+header .log-in-y-navegacion .log-in .palabra-registrarse i {font-size: 15px;}
+header .log-in-y-navegacion .log-in .palabra-carrito i {font-size: 15px}
+header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: 15px;}
 
-/*------INDEX------*/
+/*----------------------------INDEX----------------------------*/
 
 .hero p {
         font-size: 25px;
         }
 .hero h2 {
-            font-size: 30px;
+        font-size: 30px;
         }
 .seccion-ventajas div .ventajas-titulo {
         height: 60px;
@@ -115,11 +318,53 @@ header .log-in-y-navegacion .log-in a {
         font-size: 15px;
         }
 .seccion-ventajas .ventajas .ventaja-impar div p {
-            font-size: 15px;
+        font-size: 15px;
         }
 .nuestros-productos h2 {
         height: 60px;
         font-size: 25px;    
+        }
+
+/*----------------------------PRODUCTOS----------------------------*/        
+
+
+.productos .contenedor-de-grillas .grid-de-producto {
+        grid-template-columns: repeat(4, 170px);
+        grid-auto-rows: 235px;
+        gap: 15px;
+        padding: 15px;
+        }
+
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+        width: 170px;
+        height: 235px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+        font-size: 22px;}
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+        font-size: 15px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+        width: 170px;
+        height: 170px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+        height: 65px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+        font-size: 12px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+        font-size: 12px; 
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+        font-size: 12px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+        font-size: 12px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+        height: 17px;
         }
 
 /*----------------------------RECETAS----------------------------*/
@@ -133,6 +378,82 @@ header .log-in-y-navegacion .log-in a {
 }
 
 @media screen and (max-width:827px) {
+
+/*----------------------------CONTACTO----------------------------*/
+
+.visitanos .contenedor-texto-iframe .texto-visitanos {
+        width: 360px;
+        height: 180px;
+        }
+.visitanos .contenedor-texto-iframe iframe {
+        height: 280px;
+        width: 280px;
+        }
+.visitanos .contenedor-texto-iframe .texto-visitanos p {
+
+        font-size: 22px;
+        }
+.visitanos .contenedor-texto-iframe .texto-visitanos h2 {
+        font-size: 22px;
+        }
+
+/*----------------------------QUIENES SOMOS----------------------------*/
+
+.quienes-somos h2 {
+        font-size: 30px;
+        margin-bottom: 18px; }
+.quienes-somos p {
+        font-size: 20px;}
+
+/*----------------------------PRODUCTOS----------------------------*/        
+
+.promociones div h2 {
+        font-size: 25px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto {
+        grid-template-columns: repeat(4, 160px);
+        grid-auto-rows: 220px;
+        gap: 10px;
+        padding: 10px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+        width: 160px;
+        height: 220px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+        font-size: 21px;}
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+        font-size: 14px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+        width: 160px;
+        height: 160px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+        height: 60px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+        font-size: 11px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+        font-size: 11px; 
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+        font-size: 11px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+        font-size: 11px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+        height: 16px;
+        }
+
+/*----------------------------CONTACTO----------------------------*/
+
+.visitanos .enlace-interno {
+        font-size: 20px;
+        padding: 18px; 
+        }
 
 /*----------------------------RECETAS----------------------------*/
 
@@ -152,6 +473,48 @@ header .log-in-y-navegacion .log-in a {
         }
 }
 
+@media screen and (max-width:757px) {
+
+/*----------------------------HEADER----------------------------*/
+
+header .log-in-y-navegacion .log-in .palabra-registrarse {margin-left: 9px; 
+        font-size: 14px;}
+header .log-in-y-navegacion .log-in .palabra-entrar {margin-left: 9px; 
+        font-size: 14px;}
+header .log-in-y-navegacion .log-in .palabra-carrito {margin-left: 9px; 
+        font-size: 14px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {margin-left: 9px; 
+        font-size: 14px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {margin-left: 9px; 
+        font-size: 14px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {margin-left: 9px; 
+        font-size: 14px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {margin-left: 9px; 
+        font-size: 14px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {margin-left: 9px; 
+        font-size: 14px;}
+header .log-in-y-navegacion .log-in .palabra-registrarse i {font-size: 14px;}
+header .log-in-y-navegacion .log-in .palabra-carrito i {font-size: 14px}
+header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: 14px;}
+
+/*----------------------------CONTACTO----------------------------*/
+
+.visitanos .contenedor-texto-iframe .texto-visitanos {
+        width: 310px;
+        height: 160px;
+        }
+.visitanos .contenedor-texto-iframe iframe {
+        height: 240px;
+        width: 240px;
+        }
+.visitanos .contenedor-texto-iframe .texto-visitanos p {
+        font-size: 20px;
+        }
+.visitanos .contenedor-texto-iframe .texto-visitanos h2 {
+        font-size: 20px;
+        }
+}
+
 @media screen and (max-width:725px) {
 
 /*----------------------------HEADER----------------------------*/
@@ -164,11 +527,59 @@ header .logo-con-imagen h1 {
         font-size: 25px;
         margin-left: 15px;
         }
-header .log-in-y-navegacion .barra-de-navegacion nav ul li a {
-            font-size: 13px;
+
+/*----------------------------PRODUCTOS----------------------------*/        
+
+.productos .contenedor-de-grillas .grid-de-producto {
+        grid-template-columns: repeat(4, 150px);
+        grid-auto-rows: 205px;
+        gap: 10px;
+        padding: 10px;
         }
-header .log-in-y-navegacion .log-in a {
-            font-size: 13px;
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+        width: 150px;
+        height: 205px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+        font-size: 20px;}
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+        font-size: 13px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+        width: 150px;
+        height: 150px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+        height: 55px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+        font-size: 10px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+        font-size: 10px; 
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+        font-size: 10px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+        font-size: 10px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+        height: 15px;
+        }
+
+/*----------------------------CONTACTO----------------------------*/
+
+.visitanos .enlace-interno {
+        font-size: 18px;
+        padding: 16px; 
+        }
+.opinion {
+        padding: 20px;
+        }
+.opinion p {
+        font-size: 16px;
+        margin-bottom: 16px; 
         }
 
 /*----------------------------RECETAS----------------------------*/
@@ -225,6 +636,12 @@ header .log-in-y-navegacion .log-in a {
         font-size: 18px;    
         }
 
+/*----------------------------CONTACTO----------------------------*/
+
+.e-mail p {
+        font-size: 16px;
+}
+
 /*----------------------------RECETAS----------------------------*/
 
 .receta h3 {
@@ -263,6 +680,37 @@ header {
         }
 }
 
+@media screen and (max-width:681px) {
+
+/*----------------------------HEADER----------------------------*/
+
+header .log-in-y-navegacion .log-in .palabra-registrarse {margin-left: 8px; 
+        font-size: 13px;}
+header .log-in-y-navegacion .log-in .palabra-entrar {margin-left: 8px; 
+        font-size: 13px;}
+header .log-in-y-navegacion .log-in .palabra-carrito {margin-left: 8px; 
+        font-size: 13px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {margin-left: 8px; 
+        font-size: 13px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {margin-left: 8px; 
+        font-size: 13px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {margin-left: 8px; 
+        font-size: 13px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {margin-left: 8px; 
+        font-size: 13px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {margin-left: 8px; 
+        font-size: 13px;}
+header .log-in-y-navegacion .log-in .palabra-registrarse i {font-size: 13px;}
+header .log-in-y-navegacion .log-in .palabra-carrito i {font-size: 13px}
+header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: 13px;}
+
+/*----------------------------PRODUCTOS----------------------------*/
+
+.promociones div h2 {
+        font-size: 23px;
+        }
+}
+
 @media screen and (max-width:657px) {
 
 /*----------------------------HEADER----------------------------*/
@@ -278,14 +726,98 @@ header .logo-con-imagen h1{
         font-size: 20px;
         margin-left:10px ;
         }
-header .log-in-y-navegacion .log-in a {
-        font-size: 10px;
+header .log-in-y-navegacion .log-in .palabra-registrarse {margin-left: 7px; 
+        font-size: 12px;}
+header .log-in-y-navegacion .log-in .palabra-entrar {margin-left: 7px; 
+        font-size: 12px;}
+header .log-in-y-navegacion .log-in .palabra-carrito {margin-left: 7px; 
+        font-size: 12px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {margin-left: 7px; 
+        font-size: 12px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {margin-left: 7px; 
+        font-size: 12px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {margin-left: 7px; 
+        font-size: 12px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {margin-left: 7px; 
+        font-size: 12px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {margin-left: 7px; 
+        font-size: 12px;}
+        
+header .log-in-y-navegacion .log-in .palabra-registrarse i {font-size: 12px;}
+header .log-in-y-navegacion .log-in .palabra-carrito i {font-size: 12px}
+header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: 12px;}
+
+/*----------------------------QUIENES SOMOS----------------------------*/
+
+.quienes-somos-video iframe {
+        width: 530px;
+        height: 285px;
+}
+
+/*----------------------------PRODUCTOS----------------------------*/        
+
+.productos .contenedor-de-grillas .grid-de-producto {
+        grid-template-columns: repeat(4, 140px);
+        grid-auto-rows: 190px;
+        gap: 5px;
+        padding: 5px;
         }
-header .log-in-y-navegacion .log-in a i{
-        font-size: 15px;
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+        width: 140px;
+        height: 190px;
         }
-header .log-in-y-navegacion .barra-de-navegacion nav ul li a {
-        font-size: 10px;
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+        font-size: 19px;}
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+        font-size: 12px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+        width: 140px;
+        height: 140px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+        height: 50px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+        font-size: 9px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+        font-size: 9px; 
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+        font-size: 9px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+        font-size: 9px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+        height: 14px;
+        }
+
+/*----------------------------CONTACTO----------------------------*/
+
+.visitanos {
+        height: 70vh;
+        padding: 20px;
+        }
+.visitanos .contenedor-texto-iframe .texto-visitanos {
+        width: 270px;
+        height: 150px;
+        }
+.visitanos .contenedor-texto-iframe iframe {
+        height: 190px;
+        width: 190px;
+        }
+.visitanos .contenedor-texto-iframe .texto-visitanos p {
+        font-size: 18px;
+        margin: 15px 0px 0px 0px;
+        }
+.visitanos .contenedor-texto-iframe .texto-visitanos h2 {
+        font-size: 18px;
+        }
+.visitanos .enlace-interno {
+        font-size: 16px;
+        padding: 15px; 
         }
 
 /*----------------------------RECETAS----------------------------*/
@@ -310,7 +842,37 @@ header .log-in-y-navegacion .barra-de-navegacion nav ul li a {
         }
 }
 
+@media screen and (max-width:612px) {
+
+/*----------------------------PRODUCTOS----------------------------*/
+
+.promociones .carousel {
+        width: 607px;
+        height: 403px; 
+        }
+.promociones .carousel .carousel-caption h5 {
+        font-size: 34px; }
+.promociones .carousel .carousel-caption p {
+        font-size: 19px; }
+}
+
 @media screen and (max-width:607px) {
+
+/*----------------------------PRODUCTOS----------------------------*/
+
+.promociones div h2 {
+        font-size: 20px;
+        }
+.promociones .carousel {
+        width: 585px;
+        height: 388px; 
+        }
+
+/*----------------------------CONTACTO----------------------------*/
+
+.visitanos .enlace-interno {
+        font-size: 15px;
+        }
 
 /*----------------------------RECETAS----------------------------*/
 
@@ -324,6 +886,122 @@ header .log-in-y-navegacion .barra-de-navegacion nav ul li a {
 .receta .grid-container-receta .ingredientes ul li{
         font-size: 13px;
         margin-bottom: 7px;
+        }
+}
+
+@media screen and (max-width:585px) {
+
+/*----------------------------PRODUCTOS----------------------------*/
+
+.promociones .carousel {
+        width: 570px;
+        height: 378px; 
+        }
+.productos .contenedor-de-grillas .grid-de-producto {
+        grid-template-columns: repeat(3, 170px);
+        grid-auto-rows: 235px;
+        gap: 15px;
+        padding: 15px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+        width: 170px;
+        height: 235px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+        font-size: 22px;}
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+        font-size: 15px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+        width: 170px;
+        height: 170px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+        height: 65px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+        font-size: 12px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+        font-size: 12px; 
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+        font-size: 12px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+        font-size: 12px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+        height: 17px;
+        }
+}
+
+@media screen and (max-width:570px) {
+
+/*----------------------------INDEX----------------------------*/
+
+header .log-in-y-navegacion .log-in .palabra-registrarse {margin-left: 6px; 
+        font-size: 11px;}
+header .log-in-y-navegacion .log-in .palabra-entrar {margin-left: 6px; 
+        font-size: 11px;}
+header .log-in-y-navegacion .log-in .palabra-carrito {margin-left: 6px; 
+        font-size: 11px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {margin-left: 6px; 
+        font-size: 11px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {margin-left: 6px; 
+        font-size: 11px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {margin-left: 6px; 
+        font-size: 11px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {margin-left: 6px; 
+        font-size: 11px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {margin-left: 6px; 
+        font-size: 11px;}       
+header .log-in-y-navegacion .log-in .palabra-registrarse i {font-size: 11px;}
+header .log-in-y-navegacion .log-in .palabra-carrito i {font-size: 11px}
+header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: 11px;}
+
+/*----------------------------PRODUCTOS----------------------------*/
+
+.promociones .carousel {
+        width: 523px;
+        height: 347px; 
+        }
+.productos .contenedor-de-grillas .grid-de-producto {
+        grid-template-columns: repeat(3, 160px);
+        grid-auto-rows: 220px;
+        gap: 10px;
+        padding: 10px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+        width: 160px;
+        height: 220px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+        font-size: 21px;}
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+        font-size: 14px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+        width: 160px;
+        height: 160px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+        height: 60px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+        font-size: 11px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+        font-size: 11px; 
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+        font-size: 11px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+        font-size: 11px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+        height: 16px;
         }
 }
 
@@ -351,9 +1029,65 @@ header .log-in-y-navegacion .barra-de-navegacion nav ul li a {
 .seccion-ventajas .ventajas .ventaja-impar div {
         align-items: center;
         }
+
+/*----------------------------QUIENES SOMOS----------------------------*/
+
+.quienes-somos {
+        padding: 20px;
+        }
+.quienes-somos h2 {
+        font-size: 27px;
+        }
+.quienes-somos p {
+        font-size: 17px;
+        text-align: justify;
+        }
+
+/*----------------------------CONTACTO----------------------------*/
+
+.visitanos .contenedor-texto-iframe .texto-visitanos {
+        width: 250px;
+        height: 140px;
+        }
+.visitanos .contenedor-texto-iframe iframe {
+        height: 170px;
+        width: 170px;
+        }
+.visitanos .contenedor-texto-iframe .texto-visitanos p {
+        font-size: 16px;
+        margin: 13px 0px 0px 0px;
+        }
+.visitanos .contenedor-texto-iframe .texto-visitanos h2 {
+        font-size: 16px;
+        }
+.enlace-interno {
+        width: 445px;
+        }
 }
 
 @media screen and (max-width:535px) {
+
+/*----------------------------HEADER----------------------------*/
+
+header .log-in-y-navegacion .log-in .palabra-registrarse {margin-left: 5px; 
+        font-size: 10px;}
+header .log-in-y-navegacion .log-in .palabra-entrar {margin-left: 5px; 
+        font-size: 10px;}
+header .log-in-y-navegacion .log-in .palabra-carrito {margin-left: 5px; 
+        font-size: 10px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {margin-left: 5px; 
+        font-size: 10px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {margin-left: 5px; 
+        font-size: 10px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {margin-left: 5px; 
+        font-size: 10px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {margin-left: 5px; 
+        font-size: 10px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {margin-left: 5px; 
+        font-size: 10px;}       
+header .log-in-y-navegacion .log-in .palabra-registrarse i {font-size: 10px;}
+header .log-in-y-navegacion .log-in .palabra-carrito i {font-size: 10px}
+header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: 10px;}
 
 /*----------------------------INDEX----------------------------*/
 
@@ -366,6 +1100,13 @@ header .log-in-y-navegacion .barra-de-navegacion nav ul li a {
 .hero h2{
         margin-bottom: 30px;
         }
+
+/*----------------------------QUIENES SOMOS----------------------------*/
+
+.quienes-somos-video iframe {
+        width: 470px;
+        height: 275px;
+}
 
 /*----------------------------RECETAS----------------------------*/
 
@@ -399,9 +1140,15 @@ header .log-in-y-navegacion .log-in {
 header .log-in-y-navegacion .barra-de-navegacion nav ul {
         justify-content: center;
         }
-header .log-in-y-navegacion .barra-de-navegacion nav ul li a{
-        margin: 5px;
-        }
+header .log-in-y-navegacion .log-in .palabra-registrarse {margin: 4px; }
+header .log-in-y-navegacion .log-in .palabra-entrar {margin: 4px; }
+header .log-in-y-navegacion .log-in .palabra-carrito {margin: 4px; }
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {margin: 4px; }
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {margin: 4px; }
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {margin: 4px; }
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {margin: 4px; }
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {margin: 4px; }       
+
 
 /*----------------------------INDEX----------------------------*/
 .hero {
@@ -409,6 +1156,155 @@ header .log-in-y-navegacion .barra-de-navegacion nav ul li a{
         }
 .hero h2{
         margin-bottom: 20px;
+        }
+
+/*----------------------------QUIENES SOMOS----------------------------*/
+
+.quienes-somos-video iframe {
+        width: 420px;
+        height: 265px;
+}
+
+/*----------------------------PRODUCTOS----------------------------*/        
+
+.promociones div h2 {
+        font-size: 18px;
+        }
+.promociones .carousel {
+        width: 490px;
+        height: 325px; 
+        }
+.promociones .carousel .carousel-caption h5 {
+        font-size: 30px; }
+.promociones .carousel .carousel-caption p {
+        font-size: 15px; }
+.productos .contenedor-de-grillas .grid-de-producto {
+        grid-template-columns: repeat(3, 150px);
+        grid-auto-rows: 205px;
+        gap: 10px;
+        padding: 10px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+        width: 150px;
+        height: 205px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+        font-size: 20px;}
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+        font-size: 13px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+        width: 150px;
+        height: 150px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+        height: 55px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+        font-size: 10px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+        font-size: 10px; 
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+        font-size: 10px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+        font-size: 10px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+        height: 15px;
+        }
+}
+
+@media screen and (max-width:490px) {
+
+/*----------------------------PRODUCTOS----------------------------*/                
+
+.promociones div h2 {
+        font-size: 17px;
+        }
+.promociones .carousel {
+        width: 453px;
+        height: 301px; 
+        }
+.productos .contenedor-de-grillas .grid-de-producto {
+        grid-template-columns: repeat(3, 140px);
+        grid-auto-rows: 190px;
+        gap: 5px;
+        padding: 5px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+        width: 140px;
+        height: 190px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+        font-size: 19px;}
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+        font-size: 12px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+        width: 140px;
+        height: 140px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+        height: 50px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+        font-size: 9px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+        font-size: 9px; 
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+        font-size: 9px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+        font-size: 9px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+        height: 14px;
+        }
+
+/*----------------------------CONTACTO----------------------------*/
+
+.visitanos {
+        height: 90vh;
+}
+.visitanos .contenedor-texto-iframe {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+}
+.visitanos .contenedor-texto-iframe .texto-visitanos {
+        width: 250px;
+        height: 100px;
+        }
+.visitanos .contenedor-texto-iframe .texto-visitanos p {
+        font-size: 15px;
+        margin: 10px 0px 0px 0px;
+        }
+.visitanos .contenedor-texto-iframe .texto-visitanos h2 {
+        font-size: 15px;
+        }
+.enlace-interno {
+        width: auto;
+        }
+}
+
+@media screen and (max-width:443px) {
+
+/*----------------------------CONTACTO----------------------------*/
+
+.e-mail {height: px;
+        }
+.e-mail p { font-size: 14px;
+        }
+.e-mail div .input-email {
+        width: 170px;
+        }
+.e-mail div label {
+        font-size: 14px;        
         }
 }
 
@@ -420,6 +1316,81 @@ header {
         padding: 5px;
         }
 
+/*----------------------------QUIENES SOMOS----------------------------*/
+
+.quienes-somos {
+        padding: 10px;
+        }
+.quienes-somos h2 {
+        font-size: 24px;
+        }
+.quienes-somos p {
+        font-size: 14px;
+        }
+
+.quienes-somos-video iframe {
+        width: 390px;
+        height: 245px;
+}
+
+/*----------------------------PRODUCTOS----------------------------*/        
+
+.promociones .carousel {
+        width: 390px;
+        height: 259px; 
+        }
+.promociones .carousel .carousel-caption h5 {
+        font-size: 25px; }
+.promociones .carousel .carousel-caption p {
+        font-size: 15px; }
+.productos .contenedor-de-grillas .grid-de-producto {
+        grid-template-columns: repeat(2, 150px);
+        grid-auto-rows: 205px;
+        gap: 10px;
+        padding: 10px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+        width: 150px;
+        height: 205px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+        font-size: 20px;}
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+        font-size: 13px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+        width: 150px;
+        height: 150px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+        height: 55px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+        font-size: 10px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+        font-size: 10px; 
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+        font-size: 10px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+        font-size: 10px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+        height: 15px;
+        }
+
+/*----------------------------CONTACTO----------------------------*/
+
+.opinion {
+        padding: 10px;
+        }
+.opinion form div textarea {
+        width: 300px;
+
+        }
+
 /*----------------------------FOOTER----------------------------*/
 
 footer {
@@ -428,18 +1399,53 @@ footer {
         }
 }
 
+@media screen and (max-width:390px) {
+
+/*----------------------------PRODUCTOS----------------------------*/
+
+.promociones .carousel {
+        width: 330px;
+        height: 219px; 
+        }
+.promociones .carousel .carousel-caption h5 {
+        font-size: 20px; }
+.promociones .carousel .carousel-caption p {
+        font-size: 13px; }
+}
+
+@media screen and (max-width:411px) {
+
+/*----------------------------QUIENES SOMOS----------------------------*/
+
+.quienes-somos-video iframe {
+        width: 300px;
+        height: 180px;
+}
+}
+
 @media screen and (max-width:363px) {
 
 /*----------------------------HEADER----------------------------*/
 
-header .log-in-y-navegacion .log-in a {
-        font-size: 9px;
-        margin: 2px;
-        }
-header .log-in-y-navegacion .barra-de-navegacion nav ul li a {
-        font-size: 9px;
-        margin: 2px;
-        }
+header .log-in-y-navegacion .log-in .palabra-registrarse {margin-left: 3px; 
+        font-size: 9px;}
+header .log-in-y-navegacion .log-in .palabra-entrar {margin-left: 3px; 
+        font-size: 9px;}
+header .log-in-y-navegacion .log-in .palabra-carrito {margin-left: 3px; 
+        font-size: 9px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {margin-left: 3px; 
+        font-size: 9px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {margin-left: 3px; 
+        font-size: 9px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {margin-left: 3px; 
+        font-size: 9px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {margin-left: 3px; 
+        font-size: 9px;}
+header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {margin-left: 3px; 
+        font-size: 9px;}       
+header .log-in-y-navegacion .log-in .palabra-registrarse i {font-size: 9px;}
+header .log-in-y-navegacion .log-in .palabra-carrito i {font-size: 9px}
+header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: 9px;}
 header {
         position: static;
         }
@@ -481,4 +1487,60 @@ header {
         grid-template-columns: repeat(2,134px);
         grid-auto-rows: 180px;
         }
+}
+
+@media screen and (max-width:330px) {
+
+/*----------------------------PRODUCTOS----------------------------*/        
+
+.productos .contenedor-de-grillas .grid-de-producto {
+        grid-template-columns: repeat(2, 140px);
+        grid-auto-rows: 190px;
+        gap: 5px;
+        padding: 5px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+        width: 140px;
+        height: 190px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+        font-size: 19px;}
+.productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+        font-size: 12px;}
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+        width: 140px;
+        height: 140px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+        height: 50px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+        font-size: 9px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+        font-size: 9px; 
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+        font-size: 9px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+        font-size: 9px;
+        }
+.productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+        height: 14px;
+        }
+}
+
+@media print {
+header {display: none;}
+.encabezado {display: none;}
+.receta h3 {font-size: 16px;}
+.receta .grid-container-receta {padding: 10px;}
+.receta .grid-container-receta .ingredientes h4 {font-size: 16px;}
+.receta .grid-container-receta .ingredientes ul li {font-size: 16px;
+        margin-bottom: 5px;}
+.receta .grid-container-receta .instrucciones p {font-size: 16px;
+        margin-bottom: 3px;}
+        .receta .grid-container-receta .imagen-de-receta img {display: none;}
+footer {display: none;}
 }

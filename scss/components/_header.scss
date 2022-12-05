@@ -1,4 +1,4 @@
-@import "../base/variables";
+/*--------------------------------------------HEADER--------------------------------------------*/
 
 header {
     background: $color-3;
@@ -38,37 +38,37 @@ header {
             display: flex;
             justify-content: flex-end;
             .palabra-registrarse {
-                font-size: 18px;
+                font-size: $tamaño-de-tipografia-y-magin-header;
                 list-style: none;
                 text-decoration: none;
                 color: white;
-                margin-left: 20px;
+                margin-left: $tamaño-de-tipografia-y-magin-header;
                 transition-duration: 0.5s;
                 &:hover {color: #BF307C;
                         transform: scale(1.07);}
-                i {font-size: 20px;}
+                i {font-size: $tamaño-de-tipografia-y-magin-header;}
             }
             .palabra-entrar {
-                font-size: 18px;
+                font-size: $tamaño-de-tipografia-y-magin-header;
                 list-style: none;
                 text-decoration: none;
                 color: white;
-                margin-left: 20px;
+                margin-left: $tamaño-de-tipografia-y-magin-header;
                 transition-duration: 0.5s;
-                &:hover {color: $color-4;
+                &:hover {color: #C6DB00;
                     transform: scale(1.07);}
-                i {font-size: 20px;}
+                i {font-size: $tamaño-de-tipografia-y-magin-header;}
             }
             .palabra-carrito {
-                font-size: 18px;
+                font-size: $tamaño-de-tipografia-y-magin-header;
                 list-style: none;
                 text-decoration: none;
                 color: white;
-                margin-left: 20px;
+                margin-left: $tamaño-de-tipografia-y-magin-header;
                 transition-duration: 0.5s;
-                &:hover {color: $color-2;
+                &:hover {color: #FF8000;
                     transform: scale(1.07);}
-                i {font-size: 20px;}
+                i {font-size: $tamaño-de-tipografia-y-magin-header;}
             }
         }
     .barra-de-navegacion {
@@ -84,43 +84,43 @@ header {
                     &:hover {transform: scale(1.05);}
                     .palabra-inicio {text-decoration: none;
                         list-style: none;
-                        margin-left: 15px;
+                        margin-left: $tamaño-de-tipografia-y-magin-header;
                         color: white;
-                        font-size: 18px;
+                        font-size: $tamaño-de-tipografia-y-magin-header;
                         transition-duration: 0.5s;
                         &:hover {color: #FF8000;}
                     }
                     .palabra-sobre-nosotros {text-decoration: none;
                         list-style: none;
-                        margin-left: 15px;
+                        margin-left: $tamaño-de-tipografia-y-magin-header;
                         color: white;
-                        font-size: 18px;
+                        font-size: $tamaño-de-tipografia-y-magin-header;
                         transition-duration: 0.5s;
-                    &:hover {color: $color-5;}
+                    &:hover {color: #FFFF00;}
                     }
                     .palabra-productos {text-decoration: none;
                         list-style: none;
-                        margin-left: 15px;
+                        margin-left: $tamaño-de-tipografia-y-magin-header;
                         color: white;
-                        font-size: 18px;
+                        font-size: $tamaño-de-tipografia-y-magin-header;
                         transition-duration: 0.5s;
-                    &:hover {color: $color-7;}
+                    &:hover {color: #FA3D3D;}
                     }
                     .palabra-contacto {text-decoration: none;
                         list-style: none;
-                        margin-left: 15px;
+                        margin-left: $tamaño-de-tipografia-y-magin-header;
                         color: white;
-                        font-size: 18px;
+                        font-size: $tamaño-de-tipografia-y-magin-header;
                         transition-duration: 0.5s;
-                        &:hover {color: $color-9;}
+                        &:hover {color: #8322BB;}
                     }
                     .palabra-recetas {text-decoration: none;
                         list-style: none;
-                        margin-left: 15px;
+                        margin-left: $tamaño-de-tipografia-y-magin-header;
                         color: white;
-                        font-size: 18px;
+                        font-size: $tamaño-de-tipografia-y-magin-header;
                         transition-duration: 0.5s;
-                    &:hover {color: $color-6;}
+                    &:hover {color: #2196F3;}
                     }
                 }
             }

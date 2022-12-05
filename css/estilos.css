@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fredoka+One&display=swap");
 header {
@@ -15,7 +16,8 @@ footer {
   box-sizing: border-box; }
 
 /*---------------------------------------PALETA DE COLORES---------------------------------------*/
-/*---------------------------------------PALETA DE COLORES---------------------------------------*/
+/*---------------------------------------TAMAÑO DE TIPOGRAFIA---------------------------------------*/
+/*--------------------------------------------HEADER--------------------------------------------*/
 header {
   background: #8DB600;
   top: 0;
@@ -51,41 +53,41 @@ header {
       display: flex;
       justify-content: flex-end; }
       header .log-in-y-navegacion .log-in .palabra-registrarse {
-        font-size: 18px;
+        font-size: 16px;
         list-style: none;
         text-decoration: none;
         color: white;
-        margin-left: 20px;
+        margin-left: 16px;
         transition-duration: 0.5s; }
         header .log-in-y-navegacion .log-in .palabra-registrarse:hover {
           color: #BF307C;
           transform: scale(1.07); }
         header .log-in-y-navegacion .log-in .palabra-registrarse i {
-          font-size: 20px; }
+          font-size: 16px; }
       header .log-in-y-navegacion .log-in .palabra-entrar {
-        font-size: 18px;
+        font-size: 16px;
         list-style: none;
         text-decoration: none;
         color: white;
-        margin-left: 20px;
+        margin-left: 16px;
         transition-duration: 0.5s; }
         header .log-in-y-navegacion .log-in .palabra-entrar:hover {
           color: #C6DB00;
           transform: scale(1.07); }
         header .log-in-y-navegacion .log-in .palabra-entrar i {
-          font-size: 20px; }
+          font-size: 16px; }
       header .log-in-y-navegacion .log-in .palabra-carrito {
-        font-size: 18px;
+        font-size: 16px;
         list-style: none;
         text-decoration: none;
         color: white;
-        margin-left: 20px;
+        margin-left: 16px;
         transition-duration: 0.5s; }
         header .log-in-y-navegacion .log-in .palabra-carrito:hover {
           color: #FF8000;
           transform: scale(1.07); }
         header .log-in-y-navegacion .log-in .palabra-carrito i {
-          font-size: 20px; }
+          font-size: 16px; }
     header .log-in-y-navegacion .barra-de-navegacion nav ul {
       display: flex;
       margin: 0;
@@ -99,50 +101,50 @@ header {
         header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {
           text-decoration: none;
           list-style: none;
-          margin-left: 15px;
+          margin-left: 16px;
           color: white;
-          font-size: 18px;
+          font-size: 16px;
           transition-duration: 0.5s; }
           header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio:hover {
             color: #FF8000; }
         header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {
           text-decoration: none;
           list-style: none;
-          margin-left: 15px;
+          margin-left: 16px;
           color: white;
-          font-size: 18px;
+          font-size: 16px;
           transition-duration: 0.5s; }
           header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros:hover {
             color: #FFFF00; }
         header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {
           text-decoration: none;
           list-style: none;
-          margin-left: 15px;
+          margin-left: 16px;
           color: white;
-          font-size: 18px;
+          font-size: 16px;
           transition-duration: 0.5s; }
           header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos:hover {
             color: #FA3D3D; }
         header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {
           text-decoration: none;
           list-style: none;
-          margin-left: 15px;
+          margin-left: 16px;
           color: white;
-          font-size: 18px;
+          font-size: 16px;
           transition-duration: 0.5s; }
           header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto:hover {
             color: #8322BB; }
         header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {
           text-decoration: none;
           list-style: none;
-          margin-left: 15px;
+          margin-left: 16px;
           color: white;
-          font-size: 18px;
+          font-size: 16px;
           transition-duration: 0.5s; }
           header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas:hover {
             color: #2196F3; }
 
-/*---------------------------------------PALETA DE COLORES---------------------------------------*/
+/*--------------------------------------------INDEX--------------------------------------------*/
 .hero {
   background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../img/background-image1.jpg");
   height: 85vh;
@@ -190,6 +192,8 @@ header {
       .seccion-ventajas .ventajas .ventaja-par div h3 {
         font-size: 30px;
         color: white; }
+        .seccion-ventajas .ventajas .ventaja-par div h3::first-letter {
+          color: #C6DB00; }
       .seccion-ventajas .ventajas .ventaja-par div p {
         font-size: 20px;
         color: white;
@@ -213,6 +217,8 @@ header {
       .seccion-ventajas .ventajas .ventaja-impar div h3 {
         font-size: 30px;
         color: white; }
+        .seccion-ventajas .ventajas .ventaja-impar div h3::first-letter {
+          color: #C6DB00; }
       .seccion-ventajas .ventajas .ventaja-impar div p {
         font-size: 20px;
         color: white;
@@ -272,7 +278,7 @@ header {
           font-family: 'Fredoka One', cursive;
           letter-spacing: 1px; }
 
-/*---------------------------------------PALETA DE COLORES---------------------------------------*/
+/*--------------------------------------------SOBRE NOSOTROS--------------------------------------------*/
 .quienes-somos {
   background-image: linear-gradient(rgba(219, 219, 219, 0.6), rgba(207, 207, 207, 0.6)), url(../img/animales.jpg);
   height: 80vh;
@@ -302,7 +308,7 @@ header {
   justify-content: center;
   align-items: center; }
 
-/*---------------------------------------PALETA DE COLORES---------------------------------------*/
+/*--------------------------------------------PRODUCTOS--------------------------------------------*/
 .promociones {
   background-color: #FD5F1F;
   display: flex;
@@ -315,17 +321,15 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 100%;
     height: 80px;
     margin: 0;
     font-weight: bold;
     color: white; }
   .promociones .carousel {
-    width: 582px;
-    height: 405px;
-    margin: 20px; }
-    .promociones .carousel .promo1 {
-      color: black; }
+    width: 612px;
+    height: 406px; }
     .promociones .carousel .carousel-caption {
       color: orangered;
       font-family: 'Be Vietnam Pro', sans-serif;
@@ -339,69 +343,119 @@ header {
   background-color: #FF8000; }
   .productos .barra-de-busqueda {
     height: 90px;
-    padding-left: 10px;
     display: flex;
-    align-items: center; }
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
     .productos .barra-de-busqueda form p {
       margin: 0;
       font-size: 20px;
       color: white; }
     .productos .barra-de-busqueda form input {
       border-radius: 5px;
-      background-color: lightgrey; }
+      background-color: white; }
     .productos .barra-de-busqueda form .boton {
       background-color: #8DB600;
       font-size: 15px;
+      font-family: 'Be Vietnam Pro', sans-serif;
+      color: white;
       font-weight: bolder;
       padding: 5px;
       border: 2px solid #C6DB00;
       border-radius: 100px; }
-  .productos .grid-de-producto {
-    display: grid;
-    grid-template-columns: repeat(5, 200px);
-    grid-auto-rows: 280px;
-    gap: 30px;
-    padding: 30px; }
-    .productos .grid-de-producto .titulo-de-producto h2 {
-      font-size: 25px;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: #C6DB00;
-      background-color: #8DB600; }
-    .productos .grid-de-producto .tarjeta-de-producto {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      background-color: #8DB600; }
-      .productos .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
-        width: 200px;
-        height: 200px; }
-      .productos .grid-de-producto .tarjeta-de-producto .texto-de-producto {
-        padding: 7px;
-        height: 80px;
+      .productos .barra-de-busqueda form .boton:active {
+        color: #8DB600;
+        background-color: white; }
+  .productos .contenedor-de-grillas {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .productos .contenedor-de-grillas .grid-de-producto {
+      display: grid;
+      grid-template-columns: repeat(5, 200px);
+      grid-auto-rows: 280px;
+      gap: 30px;
+      padding: 30px; }
+      .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto {
         display: flex;
         flex-direction: column;
-        justify-content: space-between; }
-        .productos .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
-          font-size: 15px;
+        justify-content: center;
+        align-items: center;
+        color: #C6DB00;
+        background-color: #8DB600; }
+        .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+          font-size: 25px; }
+        .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+          font-size: 18px;
           text-align: center; }
-        .productos .grid-de-producto .tarjeta-de-producto .texto-de-producto div {
+      .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #8DB600;
+        width: 200px;
+        height: 280px; }
+        .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+          width: 200px;
+          height: 200px; }
+        .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+          padding: 3px;
+          height: 80px;
           display: flex;
+          flex-direction: column;
           justify-content: space-between; }
-          .productos .grid-de-producto .tarjeta-de-producto .texto-de-producto div h4 {
-            font-size: 15px; }
-          .productos .grid-de-producto .tarjeta-de-producto .texto-de-producto div a {
-            font-size: 14px;
-            text-decoration: none;
-            color: black; }
+          .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+            font-size: 15px;
+            text-align: center;
+            margin: 0;
+            font-weight: bolder;
+            font-family: 'Be Vietnam Pro', sans-serif;
+            color: white; }
+          .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; }
+            .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div {
+              display: flex;
+              flex-direction: column;
+              letter-spacing: 1px; }
+              .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+                font-size: 15px;
+                font-family: 'Fredoka One', cursive;
+                color: white; }
+              .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+                display: flex;
+                font-size: 15px;
+                text-decoration: none;
+                color: white;
+                margin: 0;
+                font-family: 'Fredoka One', cursive; }
+                .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+                  width: 25px;
+                  height: 20px;
+                  margin-right: 2px;
+                  font-family: 'Times New Roman', Times, serif; }
+            .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+              display: flex;
+              height: auto;
+              background-color: #FF8000;
+              font-size: 15px;
+              padding: 0px;
+              border: 2px solid #FD5F1F;
+              border-radius: 5px;
+              margin: 0px;
+              color: white;
+              font-family: 'Fredoka One', cursive;
+              letter-spacing: 1px; }
+              .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button:active {
+                background-color: white;
+                color: #FF8000;
+                border-color: #FF8000; }
 
+/*--------------------------------------------CONTACTO--------------------------------------------*/
 .visitanos {
   background-color: #C6DB00;
   height: 90vh;
-  font-size: 30px;
   padding: 30px;
   color: white;
   display: flex;
@@ -419,14 +473,16 @@ header {
       padding: 10px;
       background-color: #8DB600;
       width: 500px;
-      height: 300px;
+      height: 200px;
       display: flex;
       flex-direction: column;
       justify-content: center; }
       .visitanos .contenedor-texto-iframe .texto-visitanos h2 {
-        margin: 0; }
+        margin: 0;
+        font-size: 30px; }
       .visitanos .contenedor-texto-iframe .texto-visitanos p {
-        margin: 20px 0px 0px 0px; }
+        margin: 20px 0px 0px 0px;
+        font-size: 30px; }
     .visitanos .contenedor-texto-iframe iframe {
       height: 300px;
       width: 300px; }
@@ -434,7 +490,8 @@ header {
     font-size: 25px;
     border: 3px solid #FFFF00;
     background: #8DB600;
-    padding: 20px; }
+    padding: 20px;
+    text-align: center; }
     .visitanos .enlace-interno a {
       text-decoration: none;
       color: white;
@@ -456,18 +513,24 @@ header {
     margin-bottom: 20px; }
   .opinion form div {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    text-align: center; }
   .opinion form div textarea {
     width: 400px;
     margin-top: 20px; }
   .opinion form div input {
     background-color: #8DB600;
     font-size: 15px;
-    font-weight: bolder;
-    padding: 5px;
+    padding: 7px;
     border: 2px solid #C6DB00;
     border-radius: 100px;
-    margin: 10px; }
+    margin: 5px;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 1px; }
+    .opinion form div input:active {
+      color: #8DB600;
+      background-color: white; }
 
 .e-mail {
   background-color: #FD5F1F;
@@ -477,11 +540,34 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  padding: 10px; }
+  padding: 5px 5px 5px 5px; }
   .e-mail p {
     font-size: 20px;
-    text-align: center; }
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0; }
+  .e-mail div label {
+    font-size: 16px; }
+  .e-mail div .input-email {
+    border-radius: 5px;
+    width: 240px;
+    height: 40px; }
+  .e-mail div .boton {
+    background-color: #8DB600;
+    font-size: 15px;
+    padding: 7px;
+    border: 2px solid #C6DB00;
+    border-radius: 100px;
+    margin: 5px;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 1px; }
+    .e-mail div .boton:active {
+      color: #8DB600;
+      background-color: white; }
 
+/*--------------------------------------------RECETAS--------------------------------------------*/
 .encabezado {
   background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(../img/background-image-encabezado-recetas.jpg);
   background-position: center;
@@ -552,7 +638,7 @@ header {
         height: 450px;
         border: 3px solid black; }
 
-/*---------------------------------------PALETA DE COLORES---------------------------------------*/
+/*--------------------------------------------FOOTER--------------------------------------------*/
 footer {
   background-color: #8DB600;
   height: 180px;
@@ -617,6 +703,96 @@ footer {
         footer div .link-twitter span:hover {
           color: #3d5998; }
 
+@media screen and (max-width: 1180px) {
+  /*----------------------------PRODUCTOS----------------------------*/
+  .productos .contenedor-de-grillas .grid-de-producto {
+    grid-template-columns: repeat(5, 190px);
+    grid-auto-rows: 265px;
+    gap: 25px;
+    padding: 25px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+    width: 190px;
+    height: 265px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+    font-size: 24px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+    font-size: 17px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+    width: 190px;
+    height: 190px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+    height: 75px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+    font-size: 14px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+    font-size: 14px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+    font-size: 14px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+    font-size: 14px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+    height: 19px; } }
+
+@media screen and (max-width: 1100px) {
+  /*----------------------------PRODUCTOS----------------------------*/
+  .productos .contenedor-de-grillas .grid-de-producto {
+    grid-template-columns: repeat(5, 180px);
+    grid-auto-rows: 250px;
+    gap: 20px;
+    padding: 21px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+    width: 180px;
+    height: 250px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+    font-size: 23px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+    font-size: 16px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+    width: 180px;
+    height: 180px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+    height: 70px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+    font-size: 13px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+    font-size: 13px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+    font-size: 13px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+    font-size: 13px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+    height: 18px; } }
+
+@media screen and (max-width: 1020px) {
+  /*----------------------------PRODUCTOS----------------------------*/
+  .productos .contenedor-de-grillas .grid-de-producto {
+    grid-template-columns: repeat(5, 170px);
+    grid-auto-rows: 235px;
+    gap: 15px;
+    padding: 15px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+    width: 170px;
+    height: 235px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+    font-size: 22px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+    font-size: 15px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+    width: 170px;
+    height: 170px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+    height: 65px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+    font-size: 12px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+    font-size: 12px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+    font-size: 12px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+    font-size: 12px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+    height: 17px; } }
+
 @media screen and (max-width: 963px) {
   /*----------------------------HEADER----------------------------*/
   header {
@@ -625,22 +801,51 @@ footer {
     width: 80px;
     height: 80px; }
   header .logo-con-imagen h1 {
-    font-size: 35px; }
-  header .log-in-y-navegacion .barra-de-navegacion nav ul li a {
-    margin-left: 13px;
-    font-size: 16px; }
-  header .log-in-y-navegacion .log-in a {
-    margin-left: 13px;
-    font-size: 16px; } }
+    font-size: 35px; } }
 
-@media screen and (max-width: 941px) {
+@media screen and (max-width: 956px) {
   /*----------------------------RECETAS----------------------------*/
   .receta h3 {
     font-size: 30px;
     padding: 20px; }
   .receta .grid-container-receta .imagen-de-receta img {
     width: 430px;
-    height: 430px; } }
+    height: 430px; }
+  /*----------------------------QUIENES SOMOS----------------------------*/
+  .quienes-somos h2 {
+    font-size: 33px; }
+  .quienes-somos p {
+    font-size: 23px; } }
+
+@media screen and (max-width: 940px) {
+  /*----------------------------PRODUCTOS----------------------------*/
+  .productos .contenedor-de-grillas .grid-de-producto {
+    grid-template-columns: repeat(5, 160px);
+    grid-auto-rows: 220px;
+    gap: 10px;
+    padding: 10px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+    width: 160px;
+    height: 220px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+    font-size: 21px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+    font-size: 14px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+    width: 160px;
+    height: 160px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+    height: 60px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+    font-size: 11px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+    font-size: 11px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+    font-size: 11px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+    font-size: 11px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+    height: 16px; } }
 
 @media screen and (max-width: 919px) {
   /*----------------------------RECETAS----------------------------*/
@@ -649,6 +854,19 @@ footer {
     height: 400px; } }
 
 @media screen and (max-width: 891px) {
+  /*----------------------------CONTACTO----------------------------*/
+  .visitanos .contenedor-texto-iframe .texto-visitanos {
+    width: 400px; }
+  .visitanos .contenedor-texto-iframe iframe {
+    height: 290px;
+    width: 290px; }
+  .visitanos .contenedor-texto-iframe .texto-visitanos p {
+    font-size: 25px; }
+  .visitanos .contenedor-texto-iframe .texto-visitanos h2 {
+    font-size: 25px; }
+  .visitanos .enlace-interno {
+    font-size: 23px;
+    padding: 19px; }
   /*----------------------------RECETAS----------------------------*/
   .receta .grid-container-receta .imagen-de-receta img {
     width: 390px;
@@ -673,13 +891,37 @@ footer {
     height: 70px; }
   header .logo-con-imagen h1 {
     font-size: 30px; }
-  header .log-in-y-navegacion .barra-de-navegacion nav ul li a {
+  header .log-in-y-navegacion .log-in .palabra-registrarse {
     margin-left: 10px;
     font-size: 15px; }
-  header .log-in-y-navegacion .log-in a {
-    margin-left: 15px;
+  header .log-in-y-navegacion .log-in .palabra-entrar {
+    margin-left: 10px;
     font-size: 15px; }
-  /*------INDEX------*/
+  header .log-in-y-navegacion .log-in .palabra-carrito {
+    margin-left: 10px;
+    font-size: 15px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {
+    margin-left: 10px;
+    font-size: 15px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {
+    margin-left: 10px;
+    font-size: 15px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {
+    margin-left: 10px;
+    font-size: 15px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {
+    margin-left: 10px;
+    font-size: 15px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {
+    margin-left: 10px;
+    font-size: 15px; }
+  header .log-in-y-navegacion .log-in .palabra-registrarse i {
+    font-size: 15px; }
+  header .log-in-y-navegacion .log-in .palabra-carrito i {
+    font-size: 15px; }
+  header .log-in-y-navegacion .log-in .palabra-entrar i {
+    font-size: 15px; }
+  /*----------------------------INDEX----------------------------*/
   .hero p {
     font-size: 25px; }
   .hero h2 {
@@ -698,6 +940,34 @@ footer {
   .nuestros-productos h2 {
     height: 60px;
     font-size: 25px; }
+  /*----------------------------PRODUCTOS----------------------------*/
+  .productos .contenedor-de-grillas .grid-de-producto {
+    grid-template-columns: repeat(4, 170px);
+    grid-auto-rows: 235px;
+    gap: 15px;
+    padding: 15px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+    width: 170px;
+    height: 235px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+    font-size: 22px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+    font-size: 15px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+    width: 170px;
+    height: 170px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+    height: 65px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+    font-size: 12px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+    font-size: 12px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+    font-size: 12px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+    font-size: 12px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+    height: 17px; }
   /*----------------------------RECETAS----------------------------*/
   .encabezado h2 {
     font-size: 26px; }
@@ -705,6 +975,57 @@ footer {
     font-size: 21px; } }
 
 @media screen and (max-width: 827px) {
+  /*----------------------------CONTACTO----------------------------*/
+  .visitanos .contenedor-texto-iframe .texto-visitanos {
+    width: 360px;
+    height: 180px; }
+  .visitanos .contenedor-texto-iframe iframe {
+    height: 280px;
+    width: 280px; }
+  .visitanos .contenedor-texto-iframe .texto-visitanos p {
+    font-size: 22px; }
+  .visitanos .contenedor-texto-iframe .texto-visitanos h2 {
+    font-size: 22px; }
+  /*----------------------------QUIENES SOMOS----------------------------*/
+  .quienes-somos h2 {
+    font-size: 30px;
+    margin-bottom: 18px; }
+  .quienes-somos p {
+    font-size: 20px; }
+  /*----------------------------PRODUCTOS----------------------------*/
+  .promociones div h2 {
+    font-size: 25px; }
+  .productos .contenedor-de-grillas .grid-de-producto {
+    grid-template-columns: repeat(4, 160px);
+    grid-auto-rows: 220px;
+    gap: 10px;
+    padding: 10px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+    width: 160px;
+    height: 220px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+    font-size: 21px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+    font-size: 14px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+    width: 160px;
+    height: 160px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+    height: 60px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+    font-size: 11px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+    font-size: 11px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+    font-size: 11px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+    font-size: 11px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+    height: 16px; }
+  /*----------------------------CONTACTO----------------------------*/
+  .visitanos .enlace-interno {
+    font-size: 20px;
+    padding: 18px; }
   /*----------------------------RECETAS----------------------------*/
   .receta .grid-container-receta .imagen-de-receta img {
     width: 350px;
@@ -717,6 +1038,50 @@ footer {
   .receta .grid-container-receta .instrucciones p {
     font-size: 20px; } }
 
+@media screen and (max-width: 757px) {
+  /*----------------------------HEADER----------------------------*/
+  header .log-in-y-navegacion .log-in .palabra-registrarse {
+    margin-left: 9px;
+    font-size: 14px; }
+  header .log-in-y-navegacion .log-in .palabra-entrar {
+    margin-left: 9px;
+    font-size: 14px; }
+  header .log-in-y-navegacion .log-in .palabra-carrito {
+    margin-left: 9px;
+    font-size: 14px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {
+    margin-left: 9px;
+    font-size: 14px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {
+    margin-left: 9px;
+    font-size: 14px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {
+    margin-left: 9px;
+    font-size: 14px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {
+    margin-left: 9px;
+    font-size: 14px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {
+    margin-left: 9px;
+    font-size: 14px; }
+  header .log-in-y-navegacion .log-in .palabra-registrarse i {
+    font-size: 14px; }
+  header .log-in-y-navegacion .log-in .palabra-carrito i {
+    font-size: 14px; }
+  header .log-in-y-navegacion .log-in .palabra-entrar i {
+    font-size: 14px; }
+  /*----------------------------CONTACTO----------------------------*/
+  .visitanos .contenedor-texto-iframe .texto-visitanos {
+    width: 310px;
+    height: 160px; }
+  .visitanos .contenedor-texto-iframe iframe {
+    height: 240px;
+    width: 240px; }
+  .visitanos .contenedor-texto-iframe .texto-visitanos p {
+    font-size: 20px; }
+  .visitanos .contenedor-texto-iframe .texto-visitanos h2 {
+    font-size: 20px; } }
+
 @media screen and (max-width: 725px) {
   /*----------------------------HEADER----------------------------*/
   header .logo-con-imagen img {
@@ -725,10 +1090,43 @@ footer {
   header .logo-con-imagen h1 {
     font-size: 25px;
     margin-left: 15px; }
-  header .log-in-y-navegacion .barra-de-navegacion nav ul li a {
+  /*----------------------------PRODUCTOS----------------------------*/
+  .productos .contenedor-de-grillas .grid-de-producto {
+    grid-template-columns: repeat(4, 150px);
+    grid-auto-rows: 205px;
+    gap: 10px;
+    padding: 10px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+    width: 150px;
+    height: 205px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+    font-size: 20px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
     font-size: 13px; }
-  header .log-in-y-navegacion .log-in a {
-    font-size: 13px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+    width: 150px;
+    height: 150px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+    height: 55px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+    font-size: 10px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+    font-size: 10px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+    font-size: 10px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+    font-size: 10px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+    height: 15px; }
+  /*----------------------------CONTACTO----------------------------*/
+  .visitanos .enlace-interno {
+    font-size: 18px;
+    padding: 16px; }
+  .opinion {
+    padding: 20px; }
+  .opinion p {
+    font-size: 16px;
+    margin-bottom: 16px; }
   /*----------------------------RECETAS----------------------------*/
   .receta .grid-container-receta .imagen-de-receta img {
     width: 320px;
@@ -765,6 +1163,9 @@ footer {
   .nuestros-productos h2 {
     height: 50px;
     font-size: 18px; }
+  /*----------------------------CONTACTO----------------------------*/
+  .e-mail p {
+    font-size: 16px; }
   /*----------------------------RECETAS----------------------------*/
   .receta h3 {
     font-size: 25px;
@@ -788,6 +1189,42 @@ footer {
   header {
     padding: 10px; } }
 
+@media screen and (max-width: 681px) {
+  /*----------------------------HEADER----------------------------*/
+  header .log-in-y-navegacion .log-in .palabra-registrarse {
+    margin-left: 8px;
+    font-size: 13px; }
+  header .log-in-y-navegacion .log-in .palabra-entrar {
+    margin-left: 8px;
+    font-size: 13px; }
+  header .log-in-y-navegacion .log-in .palabra-carrito {
+    margin-left: 8px;
+    font-size: 13px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {
+    margin-left: 8px;
+    font-size: 13px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {
+    margin-left: 8px;
+    font-size: 13px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {
+    margin-left: 8px;
+    font-size: 13px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {
+    margin-left: 8px;
+    font-size: 13px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {
+    margin-left: 8px;
+    font-size: 13px; }
+  header .log-in-y-navegacion .log-in .palabra-registrarse i {
+    font-size: 13px; }
+  header .log-in-y-navegacion .log-in .palabra-carrito i {
+    font-size: 13px; }
+  header .log-in-y-navegacion .log-in .palabra-entrar i {
+    font-size: 13px; }
+  /*----------------------------PRODUCTOS----------------------------*/
+  .promociones div h2 {
+    font-size: 23px; } }
+
 @media screen and (max-width: 657px) {
   /*----------------------------HEADER----------------------------*/
   header .log-in-y-navegacion {
@@ -798,12 +1235,86 @@ footer {
   header .logo-con-imagen h1 {
     font-size: 20px;
     margin-left: 10px; }
-  header .log-in-y-navegacion .log-in a {
-    font-size: 10px; }
-  header .log-in-y-navegacion .log-in a i {
-    font-size: 15px; }
-  header .log-in-y-navegacion .barra-de-navegacion nav ul li a {
-    font-size: 10px; }
+  header .log-in-y-navegacion .log-in .palabra-registrarse {
+    margin-left: 7px;
+    font-size: 12px; }
+  header .log-in-y-navegacion .log-in .palabra-entrar {
+    margin-left: 7px;
+    font-size: 12px; }
+  header .log-in-y-navegacion .log-in .palabra-carrito {
+    margin-left: 7px;
+    font-size: 12px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {
+    margin-left: 7px;
+    font-size: 12px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {
+    margin-left: 7px;
+    font-size: 12px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {
+    margin-left: 7px;
+    font-size: 12px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {
+    margin-left: 7px;
+    font-size: 12px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {
+    margin-left: 7px;
+    font-size: 12px; }
+  header .log-in-y-navegacion .log-in .palabra-registrarse i {
+    font-size: 12px; }
+  header .log-in-y-navegacion .log-in .palabra-carrito i {
+    font-size: 12px; }
+  header .log-in-y-navegacion .log-in .palabra-entrar i {
+    font-size: 12px; }
+  /*----------------------------QUIENES SOMOS----------------------------*/
+  .quienes-somos-video iframe {
+    width: 530px;
+    height: 285px; }
+  /*----------------------------PRODUCTOS----------------------------*/
+  .productos .contenedor-de-grillas .grid-de-producto {
+    grid-template-columns: repeat(4, 140px);
+    grid-auto-rows: 190px;
+    gap: 5px;
+    padding: 5px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+    width: 140px;
+    height: 190px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+    font-size: 19px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+    font-size: 12px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+    width: 140px;
+    height: 140px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+    height: 50px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+    font-size: 9px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+    font-size: 9px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+    font-size: 9px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+    font-size: 9px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+    height: 14px; }
+  /*----------------------------CONTACTO----------------------------*/
+  .visitanos {
+    height: 70vh;
+    padding: 20px; }
+  .visitanos .contenedor-texto-iframe .texto-visitanos {
+    width: 270px;
+    height: 150px; }
+  .visitanos .contenedor-texto-iframe iframe {
+    height: 190px;
+    width: 190px; }
+  .visitanos .contenedor-texto-iframe .texto-visitanos p {
+    font-size: 18px;
+    margin: 15px 0px 0px 0px; }
+  .visitanos .contenedor-texto-iframe .texto-visitanos h2 {
+    font-size: 18px; }
+  .visitanos .enlace-interno {
+    font-size: 16px;
+    padding: 15px; }
   /*----------------------------RECETAS----------------------------*/
   .receta .grid-container-receta .imagen-de-receta img {
     width: 290px;
@@ -819,7 +1330,26 @@ footer {
   .receta .grid-container-receta {
     padding: 0 10px 0 10px; } }
 
+@media screen and (max-width: 612px) {
+  /*----------------------------PRODUCTOS----------------------------*/
+  .promociones .carousel {
+    width: 607px;
+    height: 403px; }
+  .promociones .carousel .carousel-caption h5 {
+    font-size: 34px; }
+  .promociones .carousel .carousel-caption p {
+    font-size: 19px; } }
+
 @media screen and (max-width: 607px) {
+  /*----------------------------PRODUCTOS----------------------------*/
+  .promociones div h2 {
+    font-size: 20px; }
+  .promociones .carousel {
+    width: 585px;
+    height: 388px; }
+  /*----------------------------CONTACTO----------------------------*/
+  .visitanos .enlace-interno {
+    font-size: 15px; }
   /*----------------------------RECETAS----------------------------*/
   .receta .grid-container-receta .imagen-de-receta img {
     width: 240px;
@@ -829,6 +1359,103 @@ footer {
   .receta .grid-container-receta .ingredientes ul li {
     font-size: 13px;
     margin-bottom: 7px; } }
+
+@media screen and (max-width: 585px) {
+  /*----------------------------PRODUCTOS----------------------------*/
+  .promociones .carousel {
+    width: 570px;
+    height: 378px; }
+  .productos .contenedor-de-grillas .grid-de-producto {
+    grid-template-columns: repeat(3, 170px);
+    grid-auto-rows: 235px;
+    gap: 15px;
+    padding: 15px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+    width: 170px;
+    height: 235px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+    font-size: 22px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+    font-size: 15px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+    width: 170px;
+    height: 170px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+    height: 65px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+    font-size: 12px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+    font-size: 12px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+    font-size: 12px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+    font-size: 12px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+    height: 17px; } }
+
+@media screen and (max-width: 570px) {
+  /*----------------------------INDEX----------------------------*/
+  header .log-in-y-navegacion .log-in .palabra-registrarse {
+    margin-left: 6px;
+    font-size: 11px; }
+  header .log-in-y-navegacion .log-in .palabra-entrar {
+    margin-left: 6px;
+    font-size: 11px; }
+  header .log-in-y-navegacion .log-in .palabra-carrito {
+    margin-left: 6px;
+    font-size: 11px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {
+    margin-left: 6px;
+    font-size: 11px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {
+    margin-left: 6px;
+    font-size: 11px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {
+    margin-left: 6px;
+    font-size: 11px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {
+    margin-left: 6px;
+    font-size: 11px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {
+    margin-left: 6px;
+    font-size: 11px; }
+  header .log-in-y-navegacion .log-in .palabra-registrarse i {
+    font-size: 11px; }
+  header .log-in-y-navegacion .log-in .palabra-carrito i {
+    font-size: 11px; }
+  header .log-in-y-navegacion .log-in .palabra-entrar i {
+    font-size: 11px; }
+  /*----------------------------PRODUCTOS----------------------------*/
+  .promociones .carousel {
+    width: 523px;
+    height: 347px; }
+  .productos .contenedor-de-grillas .grid-de-producto {
+    grid-template-columns: repeat(3, 160px);
+    grid-auto-rows: 220px;
+    gap: 10px;
+    padding: 10px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+    width: 160px;
+    height: 220px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+    font-size: 21px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+    font-size: 14px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+    width: 160px;
+    height: 160px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+    height: 60px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+    font-size: 11px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+    font-size: 11px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+    font-size: 11px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+    font-size: 11px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+    height: 16px; } }
 
 @media screen and (max-width: 550px) {
   /*----------------------------INDEX----------------------------*/
@@ -845,9 +1472,62 @@ footer {
   .seccion-ventajas .ventajas .ventaja-par div {
     align-items: center; }
   .seccion-ventajas .ventajas .ventaja-impar div {
-    align-items: center; } }
+    align-items: center; }
+  /*----------------------------QUIENES SOMOS----------------------------*/
+  .quienes-somos {
+    padding: 20px; }
+  .quienes-somos h2 {
+    font-size: 27px; }
+  .quienes-somos p {
+    font-size: 17px;
+    text-align: justify; }
+  /*----------------------------CONTACTO----------------------------*/
+  .visitanos .contenedor-texto-iframe .texto-visitanos {
+    width: 250px;
+    height: 140px; }
+  .visitanos .contenedor-texto-iframe iframe {
+    height: 170px;
+    width: 170px; }
+  .visitanos .contenedor-texto-iframe .texto-visitanos p {
+    font-size: 16px;
+    margin: 13px 0px 0px 0px; }
+  .visitanos .contenedor-texto-iframe .texto-visitanos h2 {
+    font-size: 16px; }
+  .enlace-interno {
+    width: 445px; } }
 
 @media screen and (max-width: 535px) {
+  /*----------------------------HEADER----------------------------*/
+  header .log-in-y-navegacion .log-in .palabra-registrarse {
+    margin-left: 5px;
+    font-size: 10px; }
+  header .log-in-y-navegacion .log-in .palabra-entrar {
+    margin-left: 5px;
+    font-size: 10px; }
+  header .log-in-y-navegacion .log-in .palabra-carrito {
+    margin-left: 5px;
+    font-size: 10px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {
+    margin-left: 5px;
+    font-size: 10px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {
+    margin-left: 5px;
+    font-size: 10px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {
+    margin-left: 5px;
+    font-size: 10px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {
+    margin-left: 5px;
+    font-size: 10px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {
+    margin-left: 5px;
+    font-size: 10px; }
+  header .log-in-y-navegacion .log-in .palabra-registrarse i {
+    font-size: 10px; }
+  header .log-in-y-navegacion .log-in .palabra-carrito i {
+    font-size: 10px; }
+  header .log-in-y-navegacion .log-in .palabra-entrar i {
+    font-size: 10px; }
   /*----------------------------INDEX----------------------------*/
   .nuestros-productos .contenedor-de-grilla-productos .contenedor-de-productos {
     grid-template-columns: repeat(2, 154px); }
@@ -855,6 +1535,10 @@ footer {
     padding: 40px; }
   .hero h2 {
     margin-bottom: 30px; }
+  /*----------------------------QUIENES SOMOS----------------------------*/
+  .quienes-somos-video iframe {
+    width: 470px;
+    height: 275px; }
   /*----------------------------RECETAS----------------------------*/
   .receta .grid-container-receta {
     grid-template-columns: 1fr;
@@ -873,31 +1557,239 @@ footer {
     justify-content: center; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul {
     justify-content: center; }
-  header .log-in-y-navegacion .barra-de-navegacion nav ul li a {
-    margin: 5px; }
+  header .log-in-y-navegacion .log-in .palabra-registrarse {
+    margin: 4px; }
+  header .log-in-y-navegacion .log-in .palabra-entrar {
+    margin: 4px; }
+  header .log-in-y-navegacion .log-in .palabra-carrito {
+    margin: 4px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {
+    margin: 4px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {
+    margin: 4px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {
+    margin: 4px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {
+    margin: 4px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {
+    margin: 4px; }
   /*----------------------------INDEX----------------------------*/
   .hero {
     padding: 20px; }
   .hero h2 {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+  /*----------------------------QUIENES SOMOS----------------------------*/
+  .quienes-somos-video iframe {
+    width: 420px;
+    height: 265px; }
+  /*----------------------------PRODUCTOS----------------------------*/
+  .promociones div h2 {
+    font-size: 18px; }
+  .promociones .carousel {
+    width: 490px;
+    height: 325px; }
+  .promociones .carousel .carousel-caption h5 {
+    font-size: 30px; }
+  .promociones .carousel .carousel-caption p {
+    font-size: 15px; }
+  .productos .contenedor-de-grillas .grid-de-producto {
+    grid-template-columns: repeat(3, 150px);
+    grid-auto-rows: 205px;
+    gap: 10px;
+    padding: 10px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+    width: 150px;
+    height: 205px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+    font-size: 20px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+    font-size: 13px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+    width: 150px;
+    height: 150px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+    height: 55px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+    font-size: 10px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+    font-size: 10px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+    font-size: 10px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+    font-size: 10px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+    height: 15px; } }
+
+@media screen and (max-width: 490px) {
+  /*----------------------------PRODUCTOS----------------------------*/
+  .promociones div h2 {
+    font-size: 17px; }
+  .promociones .carousel {
+    width: 453px;
+    height: 301px; }
+  .productos .contenedor-de-grillas .grid-de-producto {
+    grid-template-columns: repeat(3, 140px);
+    grid-auto-rows: 190px;
+    gap: 5px;
+    padding: 5px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+    width: 140px;
+    height: 190px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+    font-size: 19px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+    font-size: 12px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+    width: 140px;
+    height: 140px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+    height: 50px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+    font-size: 9px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+    font-size: 9px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+    font-size: 9px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+    font-size: 9px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+    height: 14px; }
+  /*----------------------------CONTACTO----------------------------*/
+  .visitanos {
+    height: 90vh; }
+  .visitanos .contenedor-texto-iframe {
+    display: flex;
+    flex-direction: column;
+    height: 100%; }
+  .visitanos .contenedor-texto-iframe .texto-visitanos {
+    width: 250px;
+    height: 100px; }
+  .visitanos .contenedor-texto-iframe .texto-visitanos p {
+    font-size: 15px;
+    margin: 10px 0px 0px 0px; }
+  .visitanos .contenedor-texto-iframe .texto-visitanos h2 {
+    font-size: 15px; }
+  .enlace-interno {
+    width: auto; } }
+
+@media screen and (max-width: 443px) {
+  /*----------------------------CONTACTO----------------------------*/
+  .e-mail {
+    height: px; }
+  .e-mail p {
+    font-size: 14px; }
+  .e-mail div .input-email {
+    width: 170px; }
+  .e-mail div label {
+    font-size: 14px; } }
 
 @media screen and (max-width: 453px) {
   /*----------------------------HEADER----------------------------*/
   header {
     padding: 5px; }
+  /*----------------------------QUIENES SOMOS----------------------------*/
+  .quienes-somos {
+    padding: 10px; }
+  .quienes-somos h2 {
+    font-size: 24px; }
+  .quienes-somos p {
+    font-size: 14px; }
+  .quienes-somos-video iframe {
+    width: 390px;
+    height: 245px; }
+  /*----------------------------PRODUCTOS----------------------------*/
+  .promociones .carousel {
+    width: 390px;
+    height: 259px; }
+  .promociones .carousel .carousel-caption h5 {
+    font-size: 25px; }
+  .promociones .carousel .carousel-caption p {
+    font-size: 15px; }
+  .productos .contenedor-de-grillas .grid-de-producto {
+    grid-template-columns: repeat(2, 150px);
+    grid-auto-rows: 205px;
+    gap: 10px;
+    padding: 10px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+    width: 150px;
+    height: 205px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+    font-size: 20px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+    font-size: 13px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+    width: 150px;
+    height: 150px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+    height: 55px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+    font-size: 10px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+    font-size: 10px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+    font-size: 10px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+    font-size: 10px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+    height: 15px; }
+  /*----------------------------CONTACTO----------------------------*/
+  .opinion {
+    padding: 10px; }
+  .opinion form div textarea {
+    width: 300px; }
   /*----------------------------FOOTER----------------------------*/
   footer {
     flex-direction: column;
     height: 140px; } }
 
+@media screen and (max-width: 390px) {
+  /*----------------------------PRODUCTOS----------------------------*/
+  .promociones .carousel {
+    width: 330px;
+    height: 219px; }
+  .promociones .carousel .carousel-caption h5 {
+    font-size: 20px; }
+  .promociones .carousel .carousel-caption p {
+    font-size: 13px; } }
+
+@media screen and (max-width: 411px) {
+  /*----------------------------QUIENES SOMOS----------------------------*/
+  .quienes-somos-video iframe {
+    width: 300px;
+    height: 180px; } }
+
 @media screen and (max-width: 363px) {
   /*----------------------------HEADER----------------------------*/
-  header .log-in-y-navegacion .log-in a {
-    font-size: 9px;
-    margin: 2px; }
-  header .log-in-y-navegacion .barra-de-navegacion nav ul li a {
-    font-size: 9px;
-    margin: 2px; }
+  header .log-in-y-navegacion .log-in .palabra-registrarse {
+    margin-left: 3px;
+    font-size: 9px; }
+  header .log-in-y-navegacion .log-in .palabra-entrar {
+    margin-left: 3px;
+    font-size: 9px; }
+  header .log-in-y-navegacion .log-in .palabra-carrito {
+    margin-left: 3px;
+    font-size: 9px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {
+    margin-left: 3px;
+    font-size: 9px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {
+    margin-left: 3px;
+    font-size: 9px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {
+    margin-left: 3px;
+    font-size: 9px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {
+    margin-left: 3px;
+    font-size: 9px; }
+  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {
+    margin-left: 3px;
+    font-size: 9px; }
+  header .log-in-y-navegacion .log-in .palabra-registrarse i {
+    font-size: 9px; }
+  header .log-in-y-navegacion .log-in .palabra-carrito i {
+    font-size: 9px; }
+  header .log-in-y-navegacion .log-in .palabra-entrar i {
+    font-size: 9px; }
   header {
     position: static; }
   /*----------------------------INDEX----------------------------*/
@@ -925,3 +1817,55 @@ footer {
   .nuestros-productos .contenedor-de-grilla-productos .contenedor-de-productos {
     grid-template-columns: repeat(2, 134px);
     grid-auto-rows: 180px; } }
+
+@media screen and (max-width: 330px) {
+  /*----------------------------PRODUCTOS----------------------------*/
+  .productos .contenedor-de-grillas .grid-de-producto {
+    grid-template-columns: repeat(2, 140px);
+    grid-auto-rows: 190px;
+    gap: 5px;
+    padding: 5px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
+    width: 140px;
+    height: 190px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
+    font-size: 19px; }
+  .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
+    font-size: 12px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
+    width: 140px;
+    height: 140px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
+    height: 50px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
+    font-size: 9px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
+    font-size: 9px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
+    font-size: 9px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button {
+    font-size: 9px; }
+  .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
+    height: 14px; } }
+
+@media print {
+  header {
+    display: none; }
+  .encabezado {
+    display: none; }
+  .receta h3 {
+    font-size: 16px; }
+  .receta .grid-container-receta {
+    padding: 10px; }
+  .receta .grid-container-receta .ingredientes h4 {
+    font-size: 16px; }
+  .receta .grid-container-receta .ingredientes ul li {
+    font-size: 16px;
+    margin-bottom: 5px; }
+  .receta .grid-container-receta .instrucciones p {
+    font-size: 16px;
+    margin-bottom: 3px; }
+  .receta .grid-container-receta .imagen-de-receta img {
+    display: none; }
+  footer {
+    display: none; } }
