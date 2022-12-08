@@ -1,10 +1,38 @@
 /*---------------------------------------PALETA DE COLORES---------------------------------------*/
-$color-1:#FD5F1F;
-$color-2:#FF8000;
-$color-3:#8DB600;
-$color-4:#C6DB00;
-$color-5:#FFFF00;
+$colores:#FD5F1F,
+#FF8000,
+#8DB600,
+#C6DB00,
+#FFFF00;
 
 /*---------------------------------------TAMAÑO DE TIPOGRAFIA---------------------------------------*/
 $tamaño-de-tipografia-y-magin-header:16px;
 $tamaño-de-tipografia-tarjeta-de-productos:15px;
+
+%boton {
+    background-color: nth($colores,3);
+    font-size: 15px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    border: 2px solid nth($colores,4);
+    border-radius: 100px;
+    letter-spacing: 1px;
+}
+
+%links {
+    font-size: $tamaño-de-tipografia-y-magin-header;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin-left: $tamaño-de-tipografia-y-magin-header;
+    transition-duration: 0.5s;
+}
+
+@mixin flex ($flex,$direccion-flex,$justificacion,$alineacion) {
+    display: $flex;
+    flex-direction: $direccion-flex;
+    justify-content: $justificacion;
+    align-items: $alineacion;
+}

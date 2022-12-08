@@ -1,29 +1,22 @@
 /*--------------------------------------------CONTACTO--------------------------------------------*/
 
 .visitanos {
-    background-color: $color-4;
+    background-color: nth($colores,4);
     height: 90vh;
     padding: 30px;
     color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    @include flex (flex,column,space-evenly,center);
     .contenedor-texto-iframe {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
+        @include flex (flex,row,space-evenly,center);
         width: 100%;        
         .texto-visitanos {
             text-align: center;
-            border: 3px solid $color-5;
+            border: 3px solid nth($colores,5);
             padding: 10px;
-            background-color: $color-3;
+            background-color: nth($colores,3);
             width: 500px;
             height: 200px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            @include flex (flex,column,flex-start,center);
             h2{
                 margin: 0;
                 font-size: 30px;
@@ -39,8 +32,8 @@
     }
     .enlace-interno {
         font-size: 25px;
-        border: 3px solid $color-5;
-        background: $color-3;
+        border: 3px solid nth($colores,5);
+        background: nth($colores,3);
         padding: 20px;
         text-align: center;
         a {
@@ -48,54 +41,38 @@
             color: white;
             transition: 1s;
             &:hover {
-                color: $color-2;
+                color: nth($colores,2);
                 text-shadow: 3px 2px 19px #d6d7da;
             }
         }
     }
 }
 .opinion {
-    background-color: $color-2;
+    background-color: nth($colores,2);
     color: white;
     padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex (flex,column,center,center);
     p {
         font-size: 20px;
         margin-bottom: 20px;
     }
     form {div {
-            display: flex;
-            justify-content: center;
-            text-align: center;}
+        @include flex (flex,row,center,center);}
         div {textarea {
             width: 400px;
             margin-top: 20px;}}
-        div { input {
-            background-color: $color-3;
-            font-size: 15px;
-            padding: 7px;
-            border: 2px solid $color-4;
-            border-radius: 100px;
+        div { input {@extend %boton;
             margin: 5px;
-            color: white;
-            font-family: 'Fredoka One', cursive;
-            letter-spacing: 1px;
             &:active {  
-            color: $color-3;
+            color: nth($colores,3);
             background-color:white;}
 }}}}
 
 .e-mail {
-    background-color: $color-1;
+    background-color: nth($colores,1);
     height: 120px;
     color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    @include flex (flex,column,space-evenly,center);
     padding: 5px 5px 5px 5px;
     p{
     font-size: 20px;
@@ -109,15 +86,7 @@
         .input-email {border-radius: 5px;
             width: 240px;
             height: 40px;}
-        .boton{background-color: $color-3;
-            font-size: 15px;
-            padding: 7px;
-            border: 2px solid $color-4;
-            border-radius: 100px;
-            margin: 5px;
-            color: white;
-            font-family: 'Fredoka One', cursive;
-            letter-spacing: 1px;
+        .boton{@extend %boton;
             &:active {  
-                color: $color-3;
+                color: nth($colores,3);
                 background-color:white;}}}}

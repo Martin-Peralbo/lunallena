@@ -6,11 +6,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 260px;
-    border-bottom: 5px solid  $color-4;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    border-bottom: 5px solid  nth($colores,4);
+    @include flex(flex,column,space-evenly,center);
     padding: 10px;
     h2{
         font-size: 30px;
@@ -35,9 +32,7 @@
     h3{
         font-size: 40px;
         text-align: center;
-        display: flex;
-        justify-content: center;
-        align-content: center;
+        @include flex(flex,row,center,center);
         padding: 30px;
     }
     .grid-container-receta {
@@ -70,9 +65,7 @@
             margin-bottom: 30px;
         }}
         .imagen-de-receta {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flex(flex,row,center,center);
             img{
             grid-area: imagen;
             width: 450px;

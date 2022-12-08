@@ -7,10 +7,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    @include flex(flex,column,center,center);
     padding: 80px;
     h2 {font-size: 35px;
         color: black;
@@ -23,12 +20,10 @@
 .seccion-ventajas{
     div {
         .ventajas-titulo {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flex(flex,row,center,center);
             height: 70px;
             margin: 0;
-            background-color: $color-2;
+            background-color: nth($colores,2);
             color: white;
             font-size: 30px;
             box-shadow: 10px 10px 31px -6px rgba(0,0,0,0.75);
@@ -37,18 +32,14 @@
         }
     }
     .ventajas {
-        background-color: $color-1;
+        background-color: nth($colores,1);
         padding: 10px;
         .ventaja-par {
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
+            @include flex(flex,row,space-between,center);
             div {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-evenly;
+                @include flex(flex,column,space-evenly,stretch);
                 h3 {
-                    &::first-letter{color: $color-4;}
+                    &::first-letter{color: nth($colores,4);}
                     font-size: 30px;
                     color: white;
                 }
@@ -63,22 +54,16 @@
             img {
                 width: 180px;
                 height: 200px;
-                border: 2px solid $color-3;
+                border: 2px solid nth($colores,3);
                 margin: 10px;
             }
         }
         .ventaja-impar {
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-                        flex-direction: row-reverse;
+            @include flex(flex,row-reverse,space-between,center);
             div {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-evenly;
-                align-items: flex-end;
+                @include flex(flex,column,space-evenly,flex-end);
                 h3 {
-                    &::first-letter{color: $color-4;}
+                    &::first-letter{color: nth($colores,4)}
                     font-size: 30px;
                     color: white;
                 }
@@ -91,7 +76,7 @@
             img {
                 width: 180px;
                 height: 200px;
-                border: 2px solid $color-3;
+                border: 2px solid nth($colores,3);
                 margin: 10px;
             }
 
@@ -99,25 +84,22 @@
     }
 }
 .nuestros-productos {
-    background-color: $color-1;
+    background-color: nth($colores,1);
     h2 {height: 70px;
         text-align: center;
-        background-color: $color-2;
+        background-color: nth($colores,2);
         color: white;
         font-size: 30px;
         box-shadow: 10px 10px 31px -6px rgba(0,0,0,0.75);
         -webkit-box-shadow: 10px 10px 31px -6px rgba(0,0,0,0.75);
         -moz-box-shadow: 10px 10px 31px -6px rgba(0,0,0,0.75);
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex(flex,row,center,center);        
         margin: 0;
 
     }
     .contenedor-de-grilla-productos {
         padding: 20px;
-        display: flex;
-        justify-content: center;
+        @include flex(flex,row,center,stretch);
         .contenedor-de-productos {
             display: grid;
             grid-template-columns: repeat(4,154px);
@@ -126,8 +108,8 @@
             div {width: 154px;
                 height: 200px;
                 text-align: center;
-                border: 2px solid $color-4;
-                background-color: $color-3;
+                border: 2px solid nth($colores,4);
+                background-color: nth($colores,3);
                 box-shadow: 5px 5px 23px -5px rgba(0,0,0,0.75);
                 -webkit-box-shadow: 5px 5px 23px -5px rgba(0,0,0,0.75);
                 -moz-box-shadow: 5px 5px 23px -5px rgba(0,0,0,0.75);

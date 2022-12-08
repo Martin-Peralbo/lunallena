@@ -7,10 +7,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding:10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex(flex,column,center,center);
     h2 {
         font-size: 35px;
         margin-bottom: 20px;
@@ -26,8 +23,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    border-top: 30px solid $color-4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border-top: 30px solid nth($colores,4);
+    @include flex(flex,row,center,center);
 }

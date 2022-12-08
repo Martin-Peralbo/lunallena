@@ -1,7 +1,7 @@
 /*--------------------------------------------FOOTER--------------------------------------------*/
 
 footer {
-    background-color: $color-3;
+    background-color: nth($colores,3);
     height: 180px;
     padding: 20px;
     text-align: center;
@@ -17,15 +17,12 @@ footer {
     div {
         height: 100%;
         width: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        @include flex (flex,row,space-around,center);
         .link-instagram {
             list-style: none;
             text-decoration: none;
             color: white;
-            display: flex;
-            align-items: center;
+            @include flex (flex,row,flex-start,center);
             transition: 0.7s;
             img {
                 width: 40px;
@@ -42,8 +39,7 @@ footer {
             list-style: none;
             text-decoration: none;
             color: white;
-            display: flex;
-            align-items: center;
+            @include flex (flex,row,flex-start,center);
             transition: 0.7s;
             img{
                 width: 40px;
@@ -60,8 +56,7 @@ footer {
             list-style: none;
             text-decoration: none;
             color: white;
-            display: flex;
-            align-items: center;
+            @include flex (flex,row,flex-start,center);
             transition: 0.7s;
             img{
                 width: 40px;
