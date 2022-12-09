@@ -18,27 +18,27 @@ footer {
 /*---------------------------------------PALETA DE COLORES---------------------------------------*/
 /*---------------------------------------TAMAÑO DE TIPOGRAFIA---------------------------------------*/
 .productos .barra-de-busqueda form .boton, .opinion form div input, .e-mail div .boton {
-  background-color: #8DB600;
+  background-color: #77dd77;
   font-size: 15px;
   font-family: 'Be Vietnam Pro', sans-serif;
   color: white;
   font-weight: bolder;
   padding: 5px;
-  border: 2px solid #C6DB00;
+  border: 2px solid #DDF5A6;
   border-radius: 100px;
   letter-spacing: 1px; }
 
 header .log-in-y-navegacion .log-in .palabra-registrarse, header .log-in-y-navegacion .log-in .palabra-entrar, header .log-in-y-navegacion .log-in .palabra-carrito, header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio, header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros, header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos, header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto, header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {
-  font-size: 16px;
+  font-size: 14px;
   list-style: none;
   text-decoration: none;
   color: white;
-  margin-left: 16px;
+  margin-left: 14px;
   transition-duration: 0.5s; }
 
 /*--------------------------------------------HEADER--------------------------------------------*/
 header {
-  background: #8DB600;
+  background: #77dd77;
   top: 0;
   padding: 20px;
   position: sticky;
@@ -82,17 +82,17 @@ header {
         color: #BF307C;
         transform: scale(1.07); }
       header .log-in-y-navegacion .log-in .palabra-registrarse i {
-        font-size: 16px; }
+        font-size: 14px; }
       header .log-in-y-navegacion .log-in .palabra-entrar:hover {
         color: #C6DB00;
         transform: scale(1.07); }
       header .log-in-y-navegacion .log-in .palabra-entrar i {
-        font-size: 16px; }
+        font-size: 14px; }
       header .log-in-y-navegacion .log-in .palabra-carrito:hover {
         color: #FF8000;
         transform: scale(1.07); }
       header .log-in-y-navegacion .log-in .palabra-carrito i {
-        font-size: 16px; }
+        font-size: 14px; }
     header .log-in-y-navegacion .barra-de-navegacion nav ul {
       display: flex;
       flex-direction: row;
@@ -130,12 +130,26 @@ header {
   align-items: center;
   padding: 80px; }
   .hero h2 {
-    font-size: 35px;
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
     color: black;
-    margin-bottom: 50px; }
+    margin-bottom: 40px; }
   .hero p {
     font-size: 30px;
     text-align: center; }
+  .hero a {
+    background-color: #77dd77;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    border: 2px solid #DDF5A6;
+    letter-spacing: 1px; }
+    .hero a:active {
+      color: #77dd77;
+      background-color: white; }
 
 .seccion-ventajas div .ventajas-titulo {
   display: flex;
@@ -144,7 +158,7 @@ header {
   align-items: center;
   height: 70px;
   margin: 0;
-  background-color: #FF8000;
+  background-color: #F7BD56;
   color: white;
   font-size: 30px;
   box-shadow: 10px 10px 31px -6px rgba(0, 0, 0, 0.75);
@@ -152,8 +166,8 @@ header {
   -moz-box-shadow: 10px 10px 31px -6px rgba(0, 0, 0, 0.75); }
 
 .seccion-ventajas .ventajas {
-  background-color: #FD5F1F;
-  padding: 10px; }
+  background-color: white;
+  padding: 15px; }
   .seccion-ventajas .ventajas .ventaja-par {
     display: flex;
     flex-direction: row;
@@ -166,18 +180,19 @@ header {
       align-items: stretch; }
       .seccion-ventajas .ventajas .ventaja-par div h3 {
         font-size: 30px;
-        color: white; }
+        color: black; }
         .seccion-ventajas .ventajas .ventaja-par div h3::first-letter {
-          color: #C6DB00; }
+          color: #F7BD56;
+          font-size: 40px; }
       .seccion-ventajas .ventajas .ventaja-par div p {
         font-size: 20px;
-        color: white;
+        color: black;
         margin: 0;
         text-align: justify; }
     .seccion-ventajas .ventajas .ventaja-par img {
       width: 180px;
       height: 200px;
-      border: 2px solid #8DB600;
+      border: 2px solid #F7BD56;
       margin: 10px; }
   .seccion-ventajas .ventajas .ventaja-impar {
     display: flex;
@@ -191,26 +206,27 @@ header {
       align-items: flex-end; }
       .seccion-ventajas .ventajas .ventaja-impar div h3 {
         font-size: 30px;
-        color: white; }
+        color: black; }
         .seccion-ventajas .ventajas .ventaja-impar div h3::first-letter {
-          color: #C6DB00; }
+          color: #F7BD56;
+          font-size: 40px; }
       .seccion-ventajas .ventajas .ventaja-impar div p {
         font-size: 20px;
-        color: white;
+        color: black;
         margin: 0;
         text-align: justify; }
     .seccion-ventajas .ventajas .ventaja-impar img {
       width: 180px;
       height: 200px;
-      border: 2px solid #8DB600;
+      border: 2px solid #F7BD56;
       margin: 10px; }
 
 .nuestros-productos {
-  background-color: #FD5F1F; }
+  background-color: white; }
   .nuestros-productos h2 {
     height: 70px;
     text-align: center;
-    background-color: #FF8000;
+    background-color: #F7BD56;
     color: white;
     font-size: 30px;
     box-shadow: 10px 10px 31px -6px rgba(0, 0, 0, 0.75);
@@ -236,8 +252,8 @@ header {
         width: 154px;
         height: 200px;
         text-align: center;
-        border: 2px solid #C6DB00;
-        background-color: #8DB600;
+        border: 2px solid #DDF5A6;
+        background-color: #77dd77;
         box-shadow: 5px 5px 23px -5px rgba(0, 0, 0, 0.75);
         -webkit-box-shadow: 5px 5px 23px -5px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 5px 5px 23px -5px rgba(0, 0, 0, 0.75);
@@ -263,7 +279,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 10%;
+  padding: 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -271,6 +287,8 @@ header {
   .quienes-somos h2 {
     font-size: 35px;
     margin-bottom: 20px; }
+    .quienes-somos h2::first-letter {
+      color: #F7BD56; }
   .quienes-somos p {
     font-size: 25px;
     text-align: center; }
@@ -281,7 +299,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  border-top: 30px solid #C6DB00;
+  border-top: 30px solid #DDF5A6;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -289,7 +307,8 @@ header {
 
 /*--------------------------------------------PRODUCTOS--------------------------------------------*/
 .promociones {
-  background-color: #FD5F1F;
+  padding-bottom: 5%;
+  background-color: #F9A649;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -319,7 +338,7 @@ header {
         font-size: 20px; }
 
 .productos {
-  background-color: #FF8000; }
+  background-color: white; }
   .productos .barra-de-busqueda {
     height: 90px;
     display: flex;
@@ -330,12 +349,12 @@ header {
     .productos .barra-de-busqueda form p {
       margin: 0;
       font-size: 20px;
-      color: white; }
+      color: black; }
     .productos .barra-de-busqueda form input {
       border-radius: 5px;
       background-color: white; }
     .productos .barra-de-busqueda form .boton:active {
-      color: #8DB600;
+      color: #77dd77;
       background-color: white; }
   .productos .contenedor-de-grillas {
     display: flex;
@@ -353,8 +372,8 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        color: #C6DB00;
-        background-color: #8DB600; }
+        color: #DDF5A6;
+        background-color: #77dd77; }
         .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto h2 {
           font-size: 25px; }
         .productos .contenedor-de-grillas .grid-de-producto .titulo-de-producto p {
@@ -365,14 +384,14 @@ header {
         flex-direction: column;
         justify-content: space-between;
         align-items: stretch;
-        background-color: #8DB600;
+        background-color: #77dd77;
         width: 200px;
         height: 280px; }
         .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .imagen-de-producto img {
           width: 200px;
           height: 200px; }
         .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
-          padding: 3px;
+          padding: 7px;
           height: 80px;
           display: flex;
           flex-direction: column;
@@ -381,6 +400,7 @@ header {
           .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
             font-size: 15px;
             text-align: center;
+            margin: 0;
             font-weight: bolder;
             font-family: 'Be Vietnam Pro', sans-serif;
             color: white; }
@@ -398,6 +418,8 @@ header {
               .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
                 font-size: 15px;
                 font-family: 'Fredoka One', cursive;
+                margin: 0;
+                text-align: center;
                 color: white; }
               .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p {
                 display: flex;
@@ -406,6 +428,7 @@ header {
                 align-items: stretch;
                 font-size: 15px;
                 text-decoration: none;
+                margin: 0;
                 color: white;
                 font-family: 'Fredoka One', cursive; }
                 .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div p input {
@@ -419,10 +442,10 @@ header {
               justify-content: flex-start;
               align-items: stretch;
               height: auto;
-              background-color: #FF8000;
+              background-color: #F7BD56;
               font-size: 15px;
               padding: 0px;
-              border: 2px solid #FD5F1F;
+              border: 2px solid #F9A649;
               border-radius: 5px;
               margin: 0px;
               color: white;
@@ -430,12 +453,12 @@ header {
               letter-spacing: 1px; }
               .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div button:active {
                 background-color: white;
-                color: #FD5F1F;
-                border-color: #FF8000; }
+                color: #F9A649;
+                border-color: #F7BD56; }
 
 /*--------------------------------------------CONTACTO--------------------------------------------*/
 .visitanos {
-  background-color: #C6DB00;
+  background-color: #DDF5A6;
   height: 90vh;
   padding: 30px;
   color: white;
@@ -451,9 +474,9 @@ header {
     width: 100%; }
     .visitanos .contenedor-texto-iframe .texto-visitanos {
       text-align: center;
-      border: 3px solid #FFFF00;
+      border: 3px solid #FDFD96;
       padding: 10px;
-      background-color: #8DB600;
+      background-color: #77dd77;
       width: 500px;
       height: 200px;
       display: flex;
@@ -471,8 +494,8 @@ header {
       width: 300px; }
   .visitanos .enlace-interno {
     font-size: 25px;
-    border: 3px solid #FFFF00;
-    background: #8DB600;
+    border: 3px solid #FDFD96;
+    background: #77dd77;
     padding: 20px;
     text-align: center; }
     .visitanos .enlace-interno a {
@@ -480,11 +503,11 @@ header {
       color: white;
       transition: 1s; }
       .visitanos .enlace-interno a:hover {
-        color: #FF8000;
+        color: #F7BD56;
         text-shadow: 3px 2px 19px #d6d7da; }
 
 .opinion {
-  background-color: #FF8000;
+  background-color: #F7BD56;
   color: white;
   padding: 30px;
   display: flex;
@@ -499,17 +522,19 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center; }
+    .opinion form div label {
+      text-align: center; }
   .opinion form div textarea {
     width: 400px;
     margin-top: 20px; }
   .opinion form div input {
     margin: 5px; }
     .opinion form div input:active {
-      color: #8DB600;
+      color: #77dd77;
       background-color: white; }
 
 .e-mail {
-  background-color: #FD5F1F;
+  background-color: #F9A649;
   height: 120px;
   color: white;
   display: flex;
@@ -530,7 +555,7 @@ header {
     width: 240px;
     height: 40px; }
   .e-mail div .boton:active {
-    color: #8DB600;
+    color: #77dd77;
     background-color: white; }
 
 /*--------------------------------------------RECETAS--------------------------------------------*/
@@ -540,7 +565,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 260px;
-  border-bottom: 5px solid #C6DB00;
+  border-bottom: 5px solid #DDF5A6;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -608,7 +633,7 @@ header {
 
 /*--------------------------------------------FOOTER--------------------------------------------*/
 footer {
-  background-color: #8DB600;
+  background-color: #77dd77;
   height: 180px;
   padding: 20px;
   text-align: center;
@@ -868,50 +893,56 @@ footer {
     font-size: 30px; }
   header .log-in-y-navegacion .log-in .palabra-registrarse {
     margin-left: 10px;
-    font-size: 15px; }
+    font-size: 13px; }
   header .log-in-y-navegacion .log-in .palabra-entrar {
     margin-left: 10px;
-    font-size: 15px; }
+    font-size: 13px; }
   header .log-in-y-navegacion .log-in .palabra-carrito {
     margin-left: 10px;
-    font-size: 15px; }
+    font-size: 13px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {
     margin-left: 10px;
-    font-size: 15px; }
+    font-size: 13px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {
     margin-left: 10px;
-    font-size: 15px; }
+    font-size: 13px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {
     margin-left: 10px;
-    font-size: 15px; }
+    font-size: 13px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {
     margin-left: 10px;
-    font-size: 15px; }
+    font-size: 13px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {
     margin-left: 10px;
-    font-size: 15px; }
+    font-size: 13px; }
   header .log-in-y-navegacion .log-in .palabra-registrarse i {
-    font-size: 15px; }
+    font-size: 13px; }
   header .log-in-y-navegacion .log-in .palabra-carrito i {
-    font-size: 15px; }
+    font-size: 13px; }
   header .log-in-y-navegacion .log-in .palabra-entrar i {
-    font-size: 15px; }
+    font-size: 13px; }
   /*----------------------------INDEX----------------------------*/
   .hero p {
-    font-size: 25px; }
+    font-size: 26px; }
   .hero h2 {
-    font-size: 30px; }
+    font-size: 56px; }
+  .hero a {
+    font-size: 21px; }
   .seccion-ventajas div .ventajas-titulo {
     height: 60px;
     font-size: 25px; }
   .seccion-ventajas .ventajas .ventaja-par div h3 {
-    font-size: 25px; }
+    font-size: 28px; }
+  .seccion-ventajas .ventajas .ventaja-par div h3::first-letter {
+    font-size: 38px; }
   .seccion-ventajas .ventajas .ventaja-impar div h3 {
-    font-size: 25px; }
+    font-size: 28px; }
+  .seccion-ventajas .ventajas .ventaja-imp div h3::first-letter {
+    font-size: 38px; }
   .seccion-ventajas .ventajas .ventaja-par div p {
-    font-size: 15px; }
+    font-size: 18px; }
   .seccion-ventajas .ventajas .ventaja-impar div p {
-    font-size: 15px; }
+    font-size: 18px; }
   .nuestros-productos h2 {
     height: 60px;
     font-size: 25px; }
@@ -986,7 +1017,8 @@ footer {
     width: 160px;
     height: 160px; }
   .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
-    height: 60px; }
+    height: 60px;
+    padding: 5px; }
   .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
     font-size: 11px; }
   .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto div div h4 {
@@ -1017,34 +1049,47 @@ footer {
   /*----------------------------HEADER----------------------------*/
   header .log-in-y-navegacion .log-in .palabra-registrarse {
     margin-left: 9px;
-    font-size: 14px; }
+    font-size: 12px; }
   header .log-in-y-navegacion .log-in .palabra-entrar {
     margin-left: 9px;
-    font-size: 14px; }
+    font-size: 12px; }
   header .log-in-y-navegacion .log-in .palabra-carrito {
     margin-left: 9px;
-    font-size: 14px; }
+    font-size: 12px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {
     margin-left: 9px;
-    font-size: 14px; }
+    font-size: 12px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {
     margin-left: 9px;
-    font-size: 14px; }
+    font-size: 12px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {
     margin-left: 9px;
-    font-size: 14px; }
+    font-size: 12px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {
     margin-left: 9px;
-    font-size: 14px; }
+    font-size: 12px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {
     margin-left: 9px;
-    font-size: 14px; }
+    font-size: 12px; }
   header .log-in-y-navegacion .log-in .palabra-registrarse i {
-    font-size: 14px; }
+    font-size: 12px; }
   header .log-in-y-navegacion .log-in .palabra-carrito i {
-    font-size: 14px; }
+    font-size: 12px; }
   header .log-in-y-navegacion .log-in .palabra-entrar i {
-    font-size: 14px; }
+    font-size: 12px; }
+  /*----------------------------INDEX----------------------------*/
+  .seccion-ventajas .ventajas .ventaja-par div h3 {
+    font-size: 26px; }
+  .seccion-ventajas .ventajas .ventaja-par div h3::first-letter {
+    font-size: 36px; }
+  .seccion-ventajas .ventajas .ventaja-impar div h3 {
+    font-size: 26px; }
+  .seccion-ventajas .ventajas .ventaja-imp div h3::first-letter {
+    font-size: 36px; }
+  .seccion-ventajas .ventajas .ventaja-par div p {
+    font-size: 16px; }
+  .seccion-ventajas .ventajas .ventaja-impar div p {
+    font-size: 16px; }
   /*----------------------------CONTACTO----------------------------*/
   .visitanos .contenedor-texto-iframe .texto-visitanos {
     width: 310px;
@@ -1116,25 +1161,33 @@ footer {
     font-size: 18px;
     margin-bottom: 23px; } }
 
+@media screen and (max-width: 711px) {
+  .seccion-ventajas .ventajas .ventaja-par div h3 {
+    font-size: 24px; }
+  .seccion-ventajas .ventajas .ventaja-par div h3::first-letter {
+    font-size: 34px; }
+  .seccion-ventajas .ventajas .ventaja-impar div h3 {
+    font-size: 24px; }
+  .seccion-ventajas .ventajas .ventaja-imp div h3::first-letter {
+    font-size: 34px; }
+  .seccion-ventajas .ventajas .ventaja-par div p {
+    font-size: 14px; }
+  .seccion-ventajas .ventajas .ventaja-impar div p {
+    font-size: 14px; } }
+
 @media screen and (max-width: 700px) {
   /*----------------------------INDEX----------------------------*/
   .nuestros-productos .contenedor-de-grilla-productos .contenedor-de-productos {
     grid-template-columns: repeat(3, 154px); }
   .hero p {
-    font-size: 20px; }
+    font-size: 22px; }
   .hero h2 {
-    font-size: 25px; }
+    font-size: 52px; }
+  .hero a {
+    font-size: 17px; }
   .seccion-ventajas div .ventajas-titulo {
     height: 50px;
     font-size: 18px; }
-  .seccion-ventajas .ventajas .ventaja-par div h3 {
-    font-size: 18px; }
-  .seccion-ventajas .ventajas .ventaja-impar div h3 {
-    font-size: 18px; }
-  .seccion-ventajas .ventajas .ventaja-par div p {
-    font-size: 15px; }
-  .seccion-ventajas .ventajas .ventaja-impar div p {
-    font-size: 15px; }
   .nuestros-productos h2 {
     height: 50px;
     font-size: 18px; }
@@ -1168,34 +1221,47 @@ footer {
   /*----------------------------HEADER----------------------------*/
   header .log-in-y-navegacion .log-in .palabra-registrarse {
     margin-left: 8px;
-    font-size: 13px; }
+    font-size: 11px; }
   header .log-in-y-navegacion .log-in .palabra-entrar {
     margin-left: 8px;
-    font-size: 13px; }
+    font-size: 11px; }
   header .log-in-y-navegacion .log-in .palabra-carrito {
     margin-left: 8px;
-    font-size: 13px; }
+    font-size: 11px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {
     margin-left: 8px;
-    font-size: 13px; }
+    font-size: 11px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {
     margin-left: 8px;
-    font-size: 13px; }
+    font-size: 11px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {
     margin-left: 8px;
-    font-size: 13px; }
+    font-size: 11px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {
     margin-left: 8px;
-    font-size: 13px; }
+    font-size: 11px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {
     margin-left: 8px;
-    font-size: 13px; }
+    font-size: 11px; }
   header .log-in-y-navegacion .log-in .palabra-registrarse i {
-    font-size: 13px; }
+    font-size: 11px; }
   header .log-in-y-navegacion .log-in .palabra-carrito i {
-    font-size: 13px; }
+    font-size: 11px; }
   header .log-in-y-navegacion .log-in .palabra-entrar i {
-    font-size: 13px; }
+    font-size: 11px; }
+  /*----------------------------INDEX----------------------------*/
+  .seccion-ventajas .ventajas .ventaja-par div h3 {
+    font-size: 22px; }
+  .seccion-ventajas .ventajas .ventaja-par div h3::first-letter {
+    font-size: 32px; }
+  .seccion-ventajas .ventajas .ventaja-impar div h3 {
+    font-size: 22px; }
+  .seccion-ventajas .ventajas .ventaja-imp div h3::first-letter {
+    font-size: 32px; }
+  .seccion-ventajas .ventajas .ventaja-par div p {
+    font-size: 12px; }
+  .seccion-ventajas .ventajas .ventaja-impar div p {
+    font-size: 12px; }
   /*----------------------------PRODUCTOS----------------------------*/
   .promociones div h2 {
     font-size: 23px; } }
@@ -1212,34 +1278,34 @@ footer {
     margin-left: 10px; }
   header .log-in-y-navegacion .log-in .palabra-registrarse {
     margin-left: 7px;
-    font-size: 12px; }
+    font-size: 10px; }
   header .log-in-y-navegacion .log-in .palabra-entrar {
     margin-left: 7px;
-    font-size: 12px; }
+    font-size: 10px; }
   header .log-in-y-navegacion .log-in .palabra-carrito {
     margin-left: 7px;
-    font-size: 12px; }
+    font-size: 10px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {
     margin-left: 7px;
-    font-size: 12px; }
+    font-size: 10px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {
     margin-left: 7px;
-    font-size: 12px; }
+    font-size: 10px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {
     margin-left: 7px;
-    font-size: 12px; }
+    font-size: 10px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {
     margin-left: 7px;
-    font-size: 12px; }
+    font-size: 10px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {
     margin-left: 7px;
-    font-size: 12px; }
+    font-size: 10px; }
   header .log-in-y-navegacion .log-in .palabra-registrarse i {
-    font-size: 12px; }
+    font-size: 10px; }
   header .log-in-y-navegacion .log-in .palabra-carrito i {
-    font-size: 12px; }
+    font-size: 10px; }
   header .log-in-y-navegacion .log-in .palabra-entrar i {
-    font-size: 12px; }
+    font-size: 10px; }
   /*----------------------------QUIENES SOMOS----------------------------*/
   .quienes-somos-video iframe {
     width: 530px;
@@ -1369,37 +1435,37 @@ footer {
     height: 17px; } }
 
 @media screen and (max-width: 570px) {
-  /*----------------------------INDEX----------------------------*/
+  /*----------------------------HEADER----------------------------*/
   header .log-in-y-navegacion .log-in .palabra-registrarse {
     margin-left: 6px;
-    font-size: 11px; }
+    font-size: 9px; }
   header .log-in-y-navegacion .log-in .palabra-entrar {
     margin-left: 6px;
-    font-size: 11px; }
+    font-size: 9px; }
   header .log-in-y-navegacion .log-in .palabra-carrito {
     margin-left: 6px;
-    font-size: 11px; }
+    font-size: 9px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {
     margin-left: 6px;
-    font-size: 11px; }
+    font-size: 9px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {
     margin-left: 6px;
-    font-size: 11px; }
+    font-size: 9px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {
     margin-left: 6px;
-    font-size: 11px; }
+    font-size: 9px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {
     margin-left: 6px;
-    font-size: 11px; }
+    font-size: 9px; }
   header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {
     margin-left: 6px;
-    font-size: 11px; }
+    font-size: 9px; }
   header .log-in-y-navegacion .log-in .palabra-registrarse i {
-    font-size: 11px; }
+    font-size: 9px; }
   header .log-in-y-navegacion .log-in .palabra-carrito i {
-    font-size: 11px; }
+    font-size: 9px; }
   header .log-in-y-navegacion .log-in .palabra-entrar i {
-    font-size: 11px; }
+    font-size: 9px; }
   /*----------------------------PRODUCTOS----------------------------*/
   .promociones .carousel {
     width: 523px;
@@ -1434,12 +1500,12 @@ footer {
 
 @media screen and (max-width: 550px) {
   /*----------------------------INDEX----------------------------*/
-  .hero h2 {
-    font-size: 20px; }
   .hero p {
-    font-size: 15px; }
-  .hero {
-    padding: 60px; }
+    font-size: 18px; }
+  .hero h2 {
+    font-size: 48px; }
+  .hero a {
+    font-size: 13px; }
   .seccion-ventajas .ventajas .ventaja-par {
     flex-direction: column; }
   .seccion-ventajas .ventajas .ventaja-impar {
@@ -1448,14 +1514,15 @@ footer {
     align-items: center; }
   .seccion-ventajas .ventajas .ventaja-impar div {
     align-items: center; }
+  .seccion-ventajas .ventajas .ventaja-par div h3 {
+    text-align: center; }
+  .seccion-ventajas .ventajas .ventaja-impar div h3 {
+    text-align: center; }
   /*----------------------------QUIENES SOMOS----------------------------*/
-  .quienes-somos {
-    padding: 20px; }
   .quienes-somos h2 {
     font-size: 27px; }
   .quienes-somos p {
-    font-size: 17px;
-    text-align: justify; }
+    font-size: 17px; }
   /*----------------------------CONTACTO----------------------------*/
   .visitanos .contenedor-texto-iframe .texto-visitanos {
     width: 250px;
@@ -1472,42 +1539,9 @@ footer {
     width: 445px; } }
 
 @media screen and (max-width: 535px) {
-  /*----------------------------HEADER----------------------------*/
-  header .log-in-y-navegacion .log-in .palabra-registrarse {
-    margin-left: 5px;
-    font-size: 10px; }
-  header .log-in-y-navegacion .log-in .palabra-entrar {
-    margin-left: 5px;
-    font-size: 10px; }
-  header .log-in-y-navegacion .log-in .palabra-carrito {
-    margin-left: 5px;
-    font-size: 10px; }
-  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {
-    margin-left: 5px;
-    font-size: 10px; }
-  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {
-    margin-left: 5px;
-    font-size: 10px; }
-  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {
-    margin-left: 5px;
-    font-size: 10px; }
-  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {
-    margin-left: 5px;
-    font-size: 10px; }
-  header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {
-    margin-left: 5px;
-    font-size: 10px; }
-  header .log-in-y-navegacion .log-in .palabra-registrarse i {
-    font-size: 10px; }
-  header .log-in-y-navegacion .log-in .palabra-carrito i {
-    font-size: 10px; }
-  header .log-in-y-navegacion .log-in .palabra-entrar i {
-    font-size: 10px; }
   /*----------------------------INDEX----------------------------*/
   .nuestros-productos .contenedor-de-grilla-productos .contenedor-de-productos {
     grid-template-columns: repeat(2, 154px); }
-  .hero {
-    padding: 40px; }
   .hero h2 {
     margin-bottom: 30px; }
   /*----------------------------QUIENES SOMOS----------------------------*/
@@ -1550,7 +1584,7 @@ footer {
     margin: 4px; }
   /*----------------------------INDEX----------------------------*/
   .hero {
-    padding: 20px; }
+    padding: 30px; }
   .hero h2 {
     margin-bottom: 20px; }
   /*----------------------------QUIENES SOMOS----------------------------*/
@@ -1663,12 +1697,6 @@ footer {
   header {
     padding: 5px; }
   /*----------------------------QUIENES SOMOS----------------------------*/
-  .quienes-somos {
-    padding: 10px; }
-  .quienes-somos h2 {
-    font-size: 24px; }
-  .quienes-somos p {
-    font-size: 14px; }
   .quienes-somos-video iframe {
     width: 390px;
     height: 245px; }

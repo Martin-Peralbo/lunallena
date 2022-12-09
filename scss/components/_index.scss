@@ -9,13 +9,26 @@
     background-attachment: fixed;
     @include flex(flex,column,center,center);
     padding: 80px;
-    h2 {font-size: 35px;
+    h2 {font-size: 60px;
+        font-family: 'Pacifico', cursive;
         color: black;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
     p{font-size: 30px;
         text-align: center;
     }
+    a {background-color: nth($colores,3);
+        text-decoration: none;
+        font-size: 25px;
+        font-family: 'Be Vietnam Pro', sans-serif;
+        color: white;
+        font-weight: bolder;
+        padding: 10px;
+        border: 2px solid nth($colores,4);
+        letter-spacing: 1px;
+        &:active {  
+            color: nth($colores,3);
+            background-color:white;}}
 }
 .seccion-ventajas{
     div {
@@ -32,20 +45,22 @@
         }
     }
     .ventajas {
-        background-color: nth($colores,1);
-        padding: 10px;
+        background-color: white;
+        padding: 15px;
         .ventaja-par {
             @include flex(flex,row,space-between,center);
             div {
                 @include flex(flex,column,space-evenly,stretch);
                 h3 {
-                    &::first-letter{color: nth($colores,4);}
+                    &::first-letter{
+                        color:nth($colores,2);
+                        font-size: 40px;}
                     font-size: 30px;
-                    color: white;
+                    color: black;
                 }
                 p {
                     font-size: 20px;
-                    color: white;
+                    color: black;
                     margin: 0;
                     text-align: justify;
                 }
@@ -54,7 +69,7 @@
             img {
                 width: 180px;
                 height: 200px;
-                border: 2px solid nth($colores,3);
+                border: 2px solid nth($colores,2);
                 margin: 10px;
             }
         }
@@ -63,28 +78,29 @@
             div {
                 @include flex(flex,column,space-evenly,flex-end);
                 h3 {
-                    &::first-letter{color: nth($colores,4)}
+                    &::first-letter{
+                        color: nth($colores,2);
+                        font-size: 40px;}
                     font-size: 30px;
-                    color: white;
+                    color: black;
                 }
                 p {
                     font-size: 20px;
-                    color: white;
+                    color: black;
                     margin: 0;
                     text-align: justify;
                     }}
             img {
                 width: 180px;
                 height: 200px;
-                border: 2px solid nth($colores,3);
+                border: 2px solid nth($colores,2);
                 margin: 10px;
             }
-
         }
     }
 }
 .nuestros-productos {
-    background-color: nth($colores,1);
+    background-color: white;
     h2 {height: 70px;
         text-align: center;
         background-color: nth($colores,2);

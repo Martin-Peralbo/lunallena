@@ -277,48 +277,57 @@ header .logo-con-imagen h1 {
         font-size: 30px;
         }
 header .log-in-y-navegacion .log-in .palabra-registrarse {margin-left: 10px; 
-        font-size: 15px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-1;}
 header .log-in-y-navegacion .log-in .palabra-entrar {margin-left: 10px; 
-        font-size: 15px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-1;}
 header .log-in-y-navegacion .log-in .palabra-carrito {margin-left: 10px; 
-        font-size: 15px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-1;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {margin-left: 10px; 
-        font-size: 15px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-1;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {margin-left: 10px; 
-        font-size: 15px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-1;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {margin-left: 10px; 
-        font-size: 15px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-1;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {margin-left: 10px; 
-        font-size: 15px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-1;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {margin-left: 10px; 
-        font-size: 15px;}
-header .log-in-y-navegacion .log-in .palabra-registrarse i {font-size: 15px;}
-header .log-in-y-navegacion .log-in .palabra-carrito i {font-size: 15px}
-header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: 15px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-1;}
+header .log-in-y-navegacion .log-in .palabra-registrarse i {font-size: ($tamaño-de-tipografia-y-magin-header)-1;}
+header .log-in-y-navegacion .log-in .palabra-carrito i {font-size: ($tamaño-de-tipografia-y-magin-header)-1;}
+header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: ($tamaño-de-tipografia-y-magin-header)-1;}
 
 /*----------------------------INDEX----------------------------*/
 
 .hero p {
-        font-size: 25px;
+        font-size: 26px;
         }
 .hero h2 {
-        font-size: 30px;
+        font-size: 56px;
         }
+.hero a {
+        font-size: 21px;
+}
 .seccion-ventajas div .ventajas-titulo {
         height: 60px;
         font-size: 25px;
         }
 .seccion-ventajas .ventajas .ventaja-par div h3{
-        font-size: 25px;
+        font-size: 28px;
         }
+.seccion-ventajas .ventajas .ventaja-par div h3::first-letter{
+        font-size: 38px;
+}
 .seccion-ventajas .ventajas .ventaja-impar div h3{
-        font-size: 25px;
+        font-size: 28px;
+        }
+.seccion-ventajas .ventajas .ventaja-imp div h3::first-letter{
+        font-size: 38px;
         }
 .seccion-ventajas .ventajas .ventaja-par div p {
-        font-size: 15px;
+        font-size: 18px;
         }
 .seccion-ventajas .ventajas .ventaja-impar div p {
-        font-size: 15px;
+        font-size: 18px;
         }
 .nuestros-productos h2 {
         height: 60px;
@@ -334,7 +343,6 @@ header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: 15px;}
         gap: 15px;
         padding: 15px;
         }
-
 .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto {
         width: 170px;
         height: 235px;
@@ -431,6 +439,7 @@ header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: 15px;}
         }
 .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto {
         height: 60px;
+        padding: 5px;
         }
 .productos .contenedor-de-grillas .grid-de-producto .tarjeta-de-producto .texto-de-producto h3 {
         font-size: 11px;
@@ -478,24 +487,45 @@ header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: 15px;}
 /*----------------------------HEADER----------------------------*/
 
 header .log-in-y-navegacion .log-in .palabra-registrarse {margin-left: 9px; 
-        font-size: 14px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-2;}
 header .log-in-y-navegacion .log-in .palabra-entrar {margin-left: 9px; 
-        font-size: 14px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-2;}
 header .log-in-y-navegacion .log-in .palabra-carrito {margin-left: 9px; 
-        font-size: 14px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-2;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {margin-left: 9px; 
-        font-size: 14px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-2;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {margin-left: 9px; 
-        font-size: 14px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-2;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {margin-left: 9px; 
-        font-size: 14px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-2;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {margin-left: 9px; 
-        font-size: 14px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-2;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {margin-left: 9px; 
-        font-size: 14px;}
-header .log-in-y-navegacion .log-in .palabra-registrarse i {font-size: 14px;}
-header .log-in-y-navegacion .log-in .palabra-carrito i {font-size: 14px}
-header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: 14px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-2;}
+header .log-in-y-navegacion .log-in .palabra-registrarse i {font-size: ($tamaño-de-tipografia-y-magin-header)-2;}
+header .log-in-y-navegacion .log-in .palabra-carrito i {font-size: ($tamaño-de-tipografia-y-magin-header)-2;}
+header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: ($tamaño-de-tipografia-y-magin-header)-2;}
+
+/*----------------------------INDEX----------------------------*/
+
+.seccion-ventajas .ventajas .ventaja-par div h3{
+        font-size: 26px;
+        }
+.seccion-ventajas .ventajas .ventaja-par div h3::first-letter{
+        font-size: 36px;
+        }
+.seccion-ventajas .ventajas .ventaja-impar div h3{
+        font-size: 26px;
+        }
+.seccion-ventajas .ventajas .ventaja-imp div h3::first-letter{
+        font-size: 36px;
+        }
+.seccion-ventajas .ventajas .ventaja-par div p {
+        font-size: 16px;
+        }
+.seccion-ventajas .ventajas .ventaja-impar div p {
+        font-size: 16px;
+        }
 
 /*----------------------------CONTACTO----------------------------*/
 
@@ -602,6 +632,27 @@ header .logo-con-imagen h1 {
         }
 }
 
+@media screen and (max-width:711px) {
+.seccion-ventajas .ventajas .ventaja-par div h3{
+        font-size: 24px;
+        }
+.seccion-ventajas .ventajas .ventaja-par div h3::first-letter{
+        font-size: 34px;
+        }
+.seccion-ventajas .ventajas .ventaja-impar div h3{
+        font-size: 24px;
+        }
+.seccion-ventajas .ventajas .ventaja-imp div h3::first-letter{
+        font-size: 34px;
+        }
+.seccion-ventajas .ventajas .ventaja-par div p {
+        font-size: 14px;
+        }
+.seccion-ventajas .ventajas .ventaja-impar div p {
+        font-size: 14px;
+        }
+}
+
 @media screen and (max-width:700px) {
 
 /*----------------------------INDEX----------------------------*/
@@ -610,26 +661,17 @@ header .logo-con-imagen h1 {
         grid-template-columns: repeat(3,154px);
         }
 .hero p {
-        font-size: 20px;
+        font-size: 22px;
         }
 .hero h2 {
-        font-size: 25px;
+        font-size: 52px;
+        }
+.hero a {
+        font-size: 17px;
         }
 .seccion-ventajas div .ventajas-titulo {
         height: 50px;
         font-size: 18px;
-        }
-.seccion-ventajas .ventajas .ventaja-par div h3{
-        font-size: 18px;
-        }
-.seccion-ventajas .ventajas .ventaja-impar div h3{
-        font-size: 18px;
-        }
-.seccion-ventajas .ventajas .ventaja-par div p {
-        font-size: 15px;
-        }
-.seccion-ventajas .ventajas .ventaja-impar div p {
-        font-size: 15px;
         }
 .nuestros-productos h2 {
         height: 50px;
@@ -685,24 +727,45 @@ header {
 /*----------------------------HEADER----------------------------*/
 
 header .log-in-y-navegacion .log-in .palabra-registrarse {margin-left: 8px; 
-        font-size: 13px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-3;}
 header .log-in-y-navegacion .log-in .palabra-entrar {margin-left: 8px; 
-        font-size: 13px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-3;}
 header .log-in-y-navegacion .log-in .palabra-carrito {margin-left: 8px; 
-        font-size: 13px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-3;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {margin-left: 8px; 
-        font-size: 13px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-3;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {margin-left: 8px; 
-        font-size: 13px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-3;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {margin-left: 8px; 
-        font-size: 13px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-3;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {margin-left: 8px; 
-        font-size: 13px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-3;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {margin-left: 8px; 
-        font-size: 13px;}
-header .log-in-y-navegacion .log-in .palabra-registrarse i {font-size: 13px;}
-header .log-in-y-navegacion .log-in .palabra-carrito i {font-size: 13px}
-header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: 13px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-3;}
+header .log-in-y-navegacion .log-in .palabra-registrarse i {font-size: ($tamaño-de-tipografia-y-magin-header)-3;}
+header .log-in-y-navegacion .log-in .palabra-carrito i {font-size: ($tamaño-de-tipografia-y-magin-header)-3;}
+header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: ($tamaño-de-tipografia-y-magin-header)-3;}
+
+/*----------------------------INDEX----------------------------*/
+
+.seccion-ventajas .ventajas .ventaja-par div h3{
+        font-size: 22px;
+        }
+.seccion-ventajas .ventajas .ventaja-par div h3::first-letter{
+        font-size: 32px;
+        }
+.seccion-ventajas .ventajas .ventaja-impar div h3{
+        font-size: 22px;
+        }
+.seccion-ventajas .ventajas .ventaja-imp div h3::first-letter{
+        font-size: 32px;
+        }
+.seccion-ventajas .ventajas .ventaja-par div p {
+        font-size: 12px;
+        }
+.seccion-ventajas .ventajas .ventaja-impar div p {
+        font-size: 12px;
+        }
 
 /*----------------------------PRODUCTOS----------------------------*/
 
@@ -727,25 +790,25 @@ header .logo-con-imagen h1{
         margin-left:10px ;
         }
 header .log-in-y-navegacion .log-in .palabra-registrarse {margin-left: 7px; 
-        font-size: 12px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-4;}
 header .log-in-y-navegacion .log-in .palabra-entrar {margin-left: 7px; 
-        font-size: 12px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-4;}
 header .log-in-y-navegacion .log-in .palabra-carrito {margin-left: 7px; 
-        font-size: 12px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-4;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {margin-left: 7px; 
-        font-size: 12px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-4;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {margin-left: 7px; 
-        font-size: 12px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-4;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {margin-left: 7px; 
-        font-size: 12px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-4;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {margin-left: 7px; 
-        font-size: 12px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-4;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {margin-left: 7px; 
-        font-size: 12px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-4;}
         
-header .log-in-y-navegacion .log-in .palabra-registrarse i {font-size: 12px;}
-header .log-in-y-navegacion .log-in .palabra-carrito i {font-size: 12px}
-header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: 12px;}
+header .log-in-y-navegacion .log-in .palabra-registrarse i {font-size: ($tamaño-de-tipografia-y-magin-header)-4;}
+header .log-in-y-navegacion .log-in .palabra-carrito i {font-size: ($tamaño-de-tipografia-y-magin-header)-4;}
+header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: ($tamaño-de-tipografia-y-magin-header)-4;}
 
 /*----------------------------QUIENES SOMOS----------------------------*/
 
@@ -938,27 +1001,27 @@ header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: 12px;}
 
 @media screen and (max-width:570px) {
 
-/*----------------------------INDEX----------------------------*/
+/*----------------------------HEADER----------------------------*/
 
 header .log-in-y-navegacion .log-in .palabra-registrarse {margin-left: 6px; 
-        font-size: 11px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-5;}
 header .log-in-y-navegacion .log-in .palabra-entrar {margin-left: 6px; 
-        font-size: 11px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-5;}
 header .log-in-y-navegacion .log-in .palabra-carrito {margin-left: 6px; 
-        font-size: 11px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-5;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {margin-left: 6px; 
-        font-size: 11px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-5;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {margin-left: 6px; 
-        font-size: 11px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-5;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {margin-left: 6px; 
-        font-size: 11px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-5;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {margin-left: 6px; 
-        font-size: 11px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-5;}
 header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {margin-left: 6px; 
-        font-size: 11px;}       
-header .log-in-y-navegacion .log-in .palabra-registrarse i {font-size: 11px;}
-header .log-in-y-navegacion .log-in .palabra-carrito i {font-size: 11px}
-header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: 11px;}
+        font-size: ($tamaño-de-tipografia-y-magin-header)-5;}       
+header .log-in-y-navegacion .log-in .palabra-registrarse i {font-size: ($tamaño-de-tipografia-y-magin-header)-5;}
+header .log-in-y-navegacion .log-in .palabra-carrito i {font-size: ($tamaño-de-tipografia-y-magin-header)-5;}
+header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: ($tamaño-de-tipografia-y-magin-header)-5;}
 
 /*----------------------------PRODUCTOS----------------------------*/
 
@@ -1009,13 +1072,14 @@ header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: 11px;}
 
 /*----------------------------INDEX----------------------------*/
 
+.hero p {
+        font-size: 18px;
+        }
 .hero h2 {
-        font-size: 20px;
+        font-size: 48px;
         }
-.hero p{
-        font-size: 15px;
-        }
-.hero {padding: 60px;
+.hero a {
+        font-size: 13px;
         }
 .seccion-ventajas .ventajas .ventaja-par {
         flex-direction: column;
@@ -1029,18 +1093,22 @@ header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: 11px;}
 .seccion-ventajas .ventajas .ventaja-impar div {
         align-items: center;
         }
+.seccion-ventajas .ventajas .ventaja-par div h3{
+        text-align: center;
+        }
+
+.seccion-ventajas .ventajas .ventaja-impar div h3{
+        text-align: center;
+        }
+
 
 /*----------------------------QUIENES SOMOS----------------------------*/
 
-.quienes-somos {
-        padding: 20px;
-        }
 .quienes-somos h2 {
         font-size: 27px;
         }
 .quienes-somos p {
         font-size: 17px;
-        text-align: justify;
         }
 
 /*----------------------------CONTACTO----------------------------*/
@@ -1067,35 +1135,10 @@ header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: 11px;}
 
 @media screen and (max-width:535px) {
 
-/*----------------------------HEADER----------------------------*/
-
-header .log-in-y-navegacion .log-in .palabra-registrarse {margin-left: 5px; 
-        font-size: 10px;}
-header .log-in-y-navegacion .log-in .palabra-entrar {margin-left: 5px; 
-        font-size: 10px;}
-header .log-in-y-navegacion .log-in .palabra-carrito {margin-left: 5px; 
-        font-size: 10px;}
-header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-inicio {margin-left: 5px; 
-        font-size: 10px;}
-header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-sobre-nosotros {margin-left: 5px; 
-        font-size: 10px;}
-header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-productos {margin-left: 5px; 
-        font-size: 10px;}
-header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-contacto {margin-left: 5px; 
-        font-size: 10px;}
-header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {margin-left: 5px; 
-        font-size: 10px;}       
-header .log-in-y-navegacion .log-in .palabra-registrarse i {font-size: 10px;}
-header .log-in-y-navegacion .log-in .palabra-carrito i {font-size: 10px}
-header .log-in-y-navegacion .log-in .palabra-entrar i {font-size: 10px;}
-
 /*----------------------------INDEX----------------------------*/
 
 .nuestros-productos .contenedor-de-grilla-productos .contenedor-de-productos {
         grid-template-columns: repeat(2,154px);
-        }
-.hero {
-        padding: 40px;
         }
 .hero h2{
         margin-bottom: 30px;
@@ -1152,7 +1195,7 @@ header .log-in-y-navegacion .barra-de-navegacion nav ul li .palabra-recetas {mar
 
 /*----------------------------INDEX----------------------------*/
 .hero {
-        padding: 20px;
+        padding: 30px;
         }
 .hero h2{
         margin-bottom: 20px;
@@ -1318,15 +1361,6 @@ header {
 
 /*----------------------------QUIENES SOMOS----------------------------*/
 
-.quienes-somos {
-        padding: 10px;
-        }
-.quienes-somos h2 {
-        font-size: 24px;
-        }
-.quienes-somos p {
-        font-size: 14px;
-        }
 
 .quienes-somos-video iframe {
         width: 390px;
