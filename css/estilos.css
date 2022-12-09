@@ -351,6 +351,7 @@ header {
       font-size: 20px;
       color: black; }
     .productos .barra-de-busqueda form input {
+      border-color: black;
       border-radius: 5px;
       background-color: white; }
     .productos .barra-de-busqueda form .boton:active {
