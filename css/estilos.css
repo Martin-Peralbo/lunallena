@@ -329,7 +329,9 @@ header {
     width: 612px;
     height: 406px; }
     .promociones .carousel .carousel-caption {
-      color: orangered;
+      background-color: rgba(255, 255, 255, 0.308);
+      border-radius: 5px;
+      color: black;
       font-family: 'Be Vietnam Pro', sans-serif;
       font-weight: bolder; }
       .promociones .carousel .carousel-caption h5 {
